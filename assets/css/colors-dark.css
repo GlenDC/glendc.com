@@ -18,17 +18,17 @@ h1, h2, h3 {
 	color: #cb4b16;
 }
 
-h1 a, h1 a:visited, h1 a:active {
+h1 a, h1 a:visited, h1 a:active, h2 a, h2 a:visited, h2 a:active {
 	color: #cb4b16;
 }
 
-h1 a:hover {
+h1 a:hover, h2 a:hover {
 	background-color: #073642;
 	border-color: #073642;
 	color: #cb4b16;
 }
 
-article h1 a.anchor {
+article h1 a.anchor, article h2 a.anchor {
 	color: #2aa198;
 }
 
