@@ -3,7 +3,7 @@ url: http://glendc.com
 description: Game Developer and Open Source Hacker
 
 permalink: /:year/:month/:day/:title/
-paginate: 5
+paginate: 3
 
 highlighter: pygments
 markdown:    kramdown

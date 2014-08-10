@@ -1,27 +1,3 @@
-# Profile
-
-
-[aside]
-
-### Contacts
-- my-email@gmail.com
-- Blog: http://my-blog.com
-- Twitter: @tweeteraccount
-- Github: githubusername
-
-[/aside]
-
-
-I'm a **senior cat herder**, specialized in lorem ipsum dolor, sit amet adipiscit and numquam (Cicero, Plato, Aristotele..). 
-
-I'm passionate about lorem ipsum dolo and adipiscit numquam.
-
-My experience of **lorem ipsum** is varied: from **neque** to **velim**, from vestibulum projects to donec catere vobis for sempiter companies.
-
-I enjoy writing tam modo, rosa venenatis dui id tellus ullamcorper non pellentesque nibh porta.
-
-
-
 # Skills
 
 ### Turpis leo

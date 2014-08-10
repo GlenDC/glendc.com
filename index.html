@@ -1,61 +1,40 @@
 ---
 layout: default
-title: glendc
+title: home
 ---
+
+<!-- Description -->
+
+{% markdown description.md %}
+
+<!-- Projects -->
+
+<h1>Active Projects</h1>
+<hr>
 
 <meta name="gc:client-id" content="3909be813255080fef29">
 <meta name="gc:client-secret" content="0ec743c0eb48ffa083ae215f078f8f20a24a5e83">
 
-<h1>Active Projects</h1>
-
 <div class="github-card" data-github="GlenDC/cgreader" data-width="245" data-height="245"></div>
 <div class="github-card" data-github="differentmatt/filbert" data-width="245" data-height="245"></div>
 
+<!-- Articles -->
+
 <h1>Recent Articles</h1>
+<hr>
 
 {% for post in paginator.posts %}
 
 	<article class="post">
-
-		{% if post.external-url %}
-			<h2>
-				<a href="{{ post.external-url }}">{{ post.title }}</a>
-				<a class="anchor" href="{{ post.url }}"><i class="icon-anchor"></i></a>
-			</h2>
-		{% else %}
-			<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-		{% endif %}
-
+		<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 		<div class="post-content">{{ post.content }}</div>
 
 	</article>
 
 {% endfor %}
 
-
-
 {% if paginator.total_pages > 1 %}
-	<div class="postnavigation">
-
-		{% if paginator.previous_page %}
-			{% if paginator.page == 2 %}
-				<a class="prev left" href="/">&larr; Newer</a>
-			{% else %}
-				<a class="prev left" href="/page{{paginator.previous_page}}/">&larr; Newer</a>
-			{% endif %}
-		{% else %}
-			<span class="nope left">&larr; Newer</span>
-		{% endif %}
-
-		<span class="pages">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-
-		{% if paginator.next_page %}
-			<a class="next right" href="/page{{paginator.next_page}}/">Older &rarr;</a>
-		{% else %}
-			<span class="nope right">Older &rarr;</span>
-		{% endif %}
-
-	</div>
+	<p><a href="/blog/">Click here to see all my articles...</a></p>
 {% endif %}
 
 <script src="/assets/js/github-cards.js"></script>
