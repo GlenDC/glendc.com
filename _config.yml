@@ -1,9 +1,9 @@
-name: Solar Theme
-url: http://example.org
-description: A stylish blog using the Solarized color palette
+name: Glen De Cauwsemaecker
+url: http://glendc.com
+description: Junior Programmer at Exient and Open Source Hacker
 
 permalink: /:year/:month/:day/:title/
-paginate: 10
-pygments: true
+paginate: 5
+highlighter: pygments
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
