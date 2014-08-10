@@ -124,9 +124,20 @@ h3 {
 }
 #header h1 a {
 	border: none;
+	float: left;
+}
+
+#header-blink {
+	background-image: url("/images/blink.gif");
+	float: left;
+	margin-top: 15px;
+	margin-left: 5px;
+	width: 14px;
+	height: 25px;
 }
 
 #subheader {
+	clear: both;
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -147,12 +158,13 @@ h3 {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 #subheader-right ul li {
     display: inline;
-    padding: 3px;
     font-size: 0.85em;
+    padding: 0 2px;
 }
 
 #footer {
@@ -164,6 +176,7 @@ h3 {
 }
 
 #content {
+	clear: both;
 	width: 500px;
 	margin: 0 auto;
 }
