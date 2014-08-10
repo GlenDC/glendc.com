@@ -126,6 +126,35 @@ h3 {
 	border: none;
 }
 
+#subheader {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+#subheader-left {
+	width: 300px;
+	float: left;
+}
+
+#subheader-right {
+	width: 200px;
+	text-align: right;
+	float: right;
+}
+
+#subheader-right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#subheader-right ul li {
+    display: inline;
+    padding: 3px;
+    font-size: 0.85em;
+}
+
 #footer {
 	width: 500px;
 	margin: 50px auto 20px auto;
@@ -246,6 +275,16 @@ img.center {
 
 }
 
+/*** Profile Picture ***/
+
+#avatar {
+	width: 160px;
+	height: 240px;
+	margin: 0px 40px;
+	margin-bottom: 32px;
+	background-image: url("/images/avatar.jpg");
+	border: 1px solid #839496;
+}
 
 
 /*** Icons ***/
