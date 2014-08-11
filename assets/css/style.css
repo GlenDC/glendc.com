@@ -114,6 +114,7 @@ hr {
 
 
 /*** Useful Classes ***/
+.block { display: block; }
 .clear { clear: both; }
 .float-left { float: left; }
 .float-right { float: right; }
@@ -353,4 +354,11 @@ img.center {
 .icon-anchor:before { content: '\e800'; }
 .icon-anchor {
 	font-size: 65%;
+}
+
+/*** resume ***/
+
+.resume-nav-top {
+	display: block;
+	margin-bottom: 10px;
 }
