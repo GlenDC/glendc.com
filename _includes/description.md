@@ -1,1 +1,1 @@
-_:TODO: Write profile description..._
+Glen is a young programmer who loves challenges and is always willing to learn and improve. Learning to work with computer hardware/software and playing videogames from a very early age on, made him the person he is today. Open source, free education and a global world are key values he stands for. Feel to [contact me](mailto:contact@glendc.com) with questions and interesting proposals.

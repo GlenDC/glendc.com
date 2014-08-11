@@ -1,197 +1,78 @@
-# Skills
+### [Download my resume in a printable PDF version.](#pdf)
 
-### Turpis leo
 
-Mauris tincidunt magna sed est ultrices interdum. Ut bibendum dolor at dui facilisis aliquet. Sed vehicula dapibus malesuada. In hac habitasse platea dictumst.
+[Experience](#industry-experience) - [Skills](#key-skills) - [Software](#software-experience) - [GameJams/Hackatons](#game-jams-and-hackatons) - [Education](#education)
 
-List of stuff: *olutpat, tincidunt neque nec commodo, integer odio lacus, vestibulum id eleifend quis, scelerisque eu quam, vestibulum ante ipsum primis, faucibus orci luctus et ultrices posuere cubit, consectetur adipiscing elit. In ligula erat, tempus sed lobortis*.
+# Industry Experience
 
-## #Vestibulum ante
 
-Mauris tincidunt magna sed est ultrices interdum. Ut bibendum dolor at dui facilisis aliquet. Sed vehicula dapibus malesuada. In hac habitasse platea dictumst.
+	July 2014 - Current Position
 
-List of stuff: *olutpat, tincidunt neque nec commodo, integer odio lacus, vestibulum id eleifend quis, scelerisque eu quam, vestibulum ante ipsum primis, faucibus orci luctus et ultrices posuere cubit, consectetur adipiscing elit. In ligula erat, tempus sed lobortis*.
+## Junior Programmer at [Exient](http://www.exient.com), United Kingdom
 
-### Faucibus Orci
+Agile Game Development of a high quality mobile F2P game in C++. Working in a large team using in-house technology across several studios.
 
-Mauris tincidunt magna sed est ultrices interdum. Ut bibendum dolor at dui facilisis aliquet. Sed vehicula dapibus malesuada. In hac habitasse platea dictumst.
+	January 2014 - July 2014
 
-List of stuff: *olutpat, tincidunt neque nec commodo, integer odio lacus, vestibulum id eleifend quis, scelerisque eu quam, vestibulum ante ipsum primis, faucibus orci luctus et ultrices posuere cubit, consectetur adipiscing elit. In ligula erat, tempus sed lobortis*.
+## Junior Programmer at [Fishing Cactus](http://www.fishingcactus.com), Belgium
 
-### Ultrices posuere
+Developing serious games for medical and educaional purposes. Several games were done in Unity and C#, others were crossfading with self-developed C++ libraries and another was done completly with the in-house engine of the Company.
 
-Mauris tincidunt magna sed est ultrices interdum. Ut bibendum dolor at dui facilisis aliquet. Sed vehicula dapibus malesuada. In hac habitasse platea dictumst.
+	January 2014 - July 2014 (currently still involved, on a voluntary basis)
 
-List of stuff: *olutpat, tincidunt neque nec commodo, integer odio lacus, vestibulum id eleifend quis, scelerisque eu quam, vestibulum ante ipsum primis, faucibus orci luctus et ultrices posuere cubit, consectetur adipiscing elit. In ligula erat, tempus sed lobortis*.
+## Software Developer at [CodeCombat](http://www.codecombat.com)
 
-[block]
-## Professional Experience - Part 1
+Development of tools and web technology for a web game, that teaches people how to program, in several (computer) languages. It's one of the bigger open source project and a true YCombinator Success story.
 
-### Last Company - Jan. 2013 / Mar. 2013
-#### Last role (contractor)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget metus felis. Maecenas id nunc non justo iaculis convallis et non libero.
+[back to the top]()
 
-Nunc sit amet elit arcu. Praesent vestibulum erat sed mi accumsan in ornare mi facilisis. Pellentesque nec eleifend nibh. Vestibulum hendrerit metus metus.
 
-Etiam tincidunt aliquet odio, vel gravida ligula accumsan non. Nam laoreet elit a ligula commodo ullamcorper. Donec placerat metus quis libero porttitor dignissim gravida quis nisi. Nam vitae est et nisl vestibulum suscipit ac varius velit.
+# Key Skills
 
-Fusce imperdiet fringilla dignissim.
++ Great C++ 98/11 Knowlefge (STL, Coding Standards, Boost, ...);
++ Understanding of PPVFX and Computer Graphics with DirectX/OpenGL;
++ Experience with a high variete of low and high level languages;
++ Good mathematical skills and basic Physics knowledge;
++ Ability to optmize own and others' code;
++ Collabrative, highly motivated and passionate;
++ Ability to take a leading role;
++ Experience in indie- and opensource projects;
++ Love for low level and GameEngine code;
 
-[/block]
+[back to the top]()
 
-[block]
+# Software Experience
 
-### Another Company 2 - Nov. 2012 / Jan. 2013
-#### Another Role 2 (contractor)
++ Windows, Linux (Arch/Ubuntu/Mint) and Macintosh;
++ MCVS '10-'13, XCode, MonoDevelop, Eclipse, Sublime and VIM;
++ UnrealEngine 3, CryEngine 3, Torque 3D, Unity and Flash;
++ 3D Studio Max, Blender, Mudbox, Photoshop and Illustrator;
++ Developed for Android/iOS, Xbox360 (XNA) and Desktop Platforms;
++ Experience with Kinect 360/One and Oculus Rift;
++ Perforce, TortoiseSN, Git;
 
-[aside]
+[back to the top]()
 
-> "This could be a quote from a LinkedIn recommendation. Etiam tincidunt aliquet odio, vel gravida ligula accumsan non. Nam laoreet elit a ligula."
+# Game Jams and Hackatons
 
-Name of the Recommender
+Art Game Weekend (Lille '12), Global Game Jam (Antwerp '13), Wooga Game Jam (Berlin '13), DAE Game Jam (Kortrijk '13), Hits PlayJam (Lille '13), IndieSpeedRun (Kajaani '13), GetOnline Game Jam (Kajaani '13), Gameboy Game jam (Kajaani '13), Global Game Jam (Antwerp '14), AngelHack (London '14), Hackiothon (Brussels '14), FC Game Jam (Mons '14)
 
-[/aside]
+[back to the top]()
 
-Pellentesque ut ultricies elit. Sed venenatis erat sit amet odio bibendum vitae lobortis nibh tristique. Aenean nisl mi, mollis in rhoncus id, venenatis nec massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+# Education
 
-Notable contributions:
-- Nulla elementum, lacus sit amet blandit molestie, libero eros
-- Mattis metus, nec congue neque lectus in dui. Pellentesque vitae lorem
-- Erat, nec scelerisque dui. Sed adipiscing vestibulum ultricies.
-- Nullam gravida neque sed quam mollis pretium. Nullam a est erat, in porttitor neque.
-- Morbi dui nisi, semper ac accumsan sed, eleifend non urna.
+	September 2011 - January 2014
 
-[/block]
+### Digital Arts and Entertainment: Major Game Development
 
-### Company Number 3 - Apr. 2010 / Oct. 2012
+Learning Mathematics and Physics for Game Developers. Development in C++, C# and Graphics Programming with DirectX10 and HLSL. Development of games, both solo and in team.
 
-#### Last role - Jul. 2011 / Oct. 2012
-#### Another role - Sep. 2010 / Jul. 2011
-#### Yet another role (contractor) - Apr. 2010 / Sep. 2010
++ Summer internship at Fishing Cactus, Belgium.
++ Erasmus in the University of Applied Sciences in Kajaani, Finland.
 
+	September 2009 - June 2011
 
-[aside]
+### Communication, Web Technology and Game Development with flash
 
-> "This could be again another LinkedIn recommendation for that role, or links to projects and media. Lorem ipsum dolor adipiscit numqua elit. Nec scelerisque dui. Sed semper ac accumsan sed, eleifend non urna."
-
-Just a Name
-
-[/aside]
-
-Maecenas condimentum pharetra vehicula. Suspendisse rhoncus malesuada neque ut suscipit. Mauris pulvinar, massa sit amet commodo tempor, tellus metus tempor libero, vel tristique mi nunc non dui.
-
-Phasellus blandit lorem ut neque condimentum:
-
-**Donec** - nec odio purus. Suspendisse porta facilisis lacinia. Nulla facilisi. Vivamus lectus leo, ultricies in ornare ac, feugiat nec nibh. Nunc pharetra porttitor sem ut volutpat. Mauris faucibus dapibus ipsum, dapibus elementum urna blandit ut. Nulla tincidunt lectus ut ante vulputate.
-
-**Vel suscipit** - turpis interdum. Praesent luctus dictum augue condimentum volutpat. Suspendisse purus tortor, vestibulum aliquet tincidunt in, adipiscing tincidunt lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta congue sem vel rutrum. Pellentesque malesuada tempor urna ac eleifend.
-
-**Maecenas** - commodo viverra ullamcorper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis congue placerat cursus. Duis ut metus sed ligula tincidunt iaculis non at tellus. In eu erat eget augue gravida hendrerit. Vivamus placerat viverra libero. Nullam euismod auctor sagittis.
-
-[block]
-
-Commodo viverra ullacorper:
-
-- In sollicitudin dapibus nunc ac interdum. Vestibulum sollicitudin odio ac nisl fermentum aliquam. Mauris non condimentum tellus. Sed semper vivera.
-
-- Luctus fringilla ultrices. Maecenas non sapien et est iaculis malesuada eget et libero. Donec arcu risus, venenatis non porttitor vitae, sodales nec nisl.
-
-- Nulla non orci quam, a mattis libero. Aliquam non auctor dolor. Proin tellus urna, rutrum bibendum convallis ac.
-
-- Venenatis nec nunc. Curabitur hendrerit eros vitae diam scelerisque pulvinar. Nam rhoncus aliquet urna, at semper magna mattis quis. Quisque id massa lorem, non gravida ipsum.
-
-- Sed tristique, ipsum at vestibulum elementum, leo velit venenatis lorem, vel molestie arcu.
-
-- Lectus non ligula. Vestibulum et enim ut nunc sagittis auctor eget quis risus. Curabitur porttitor, sem ac laoreet iaculis, magna elit sagittis nunc, eu vulputate dui urna in risus. Aenean sit amet aliquam justo. Nullam et dictum velit.
-
-- Donec eget massa vitae eros lobortis tristique. Aenean sed justo sed enim dignissim posuere dignissim et augue. Aenean ante lacus, porttitor sodales feugiat ornare, tincidunt vitae felis.
-
-- Phasellus sollicitudin nisl mattis risus malesuada feugiat. Curabitur vitae felis et leo aliquet bibendum ac et lectus. Morbi elementum, mauris a vehicula posuere, dolor elit dignissim nib.
-
-[/block]
-
-
-### Company Number 4 – Nov. 2009 / Mar. 2010 Lorem Ipsum
-
-[aside]
-
-> "This could be again another LinkedIn recommendation for that role, or links to projects and media. Lorem ipsum dolor adipiscit numqua elit. Nec scelerisque dui. Sed semper ac accumsan sed, eleifend non urna. Lorem ipsum dolor adipiscit."
-
-Just a Name
-
-[/aside]
-
-- Ut vel tortor ac sem vehicula euismod at sit amet nibh. Vivamus lectus ipsum, laoreet non placerat sit amet, tincidunt a dolor. Etiam sit amet orci.
-
-- Id velit placerat congue et sed sapien. Integer vestibulum diam at est hendrerit at varius diam ornare. Pellentesque habitant morbi tristique senectus et netus
-
-- Et malesuada fames ac turpis egestas. Morbi rhoncus dignissim tellus at dictum. Nam vestibulum malesuada ipsum, eget elementum tortor auctor at. Suspendisse.
-
-- Felis velit, rhoncus at laoreet eu, semper eget tellus. Sed aliquam lectus vitae sem pellentesque ut pretium sem bibendum.
-
-Projects:
-
-- **Mauris rhoncus** - enim a suscipit hendrerit, sapien tellus hendrerit purus, vitae pulvinar nisl arcu vel lectus. Sed quis quam id quam semper sollicitudin.
-
-- **Sed eros** - turpis, sodales vel adipiscing eu, ultrices eu tortor. Maecenas sollicitudin bibendum libero. Duis in ipsum ut purus pretium sodales quis vitae est.
-
-- **Ut** - et risus in lectus cursus ultrices feugiat vel augue. Ut dapibus rhoncus scelerisque.
-
-- **Suspendisse potenti** - Vivamus eu lorem erat, ut suscipit nulla. Ut eu sapien eget nunc sagittis dictum nec non nulla. Vestibulum id orci id nulla ornare volutpat in et erat.
-
-[block]
-
-
-## Professional Experience - Part 2
-
-### Lorem Ipsum Dolor - 2006 / 2009
-
-[aside]
-
-> "This could be again another LinkedIn recommendation for that role, or links to projects and media. Lorem ipsum dolor adipiscit numqua elit. Nec scelerisque dui. Sed semper ac accumsan sed, eleifend non urna. Lorem ipsum dolor adipiscit."
-
-Just a Name
-
-[/aside]
-
-
-- Ut vel tortor ac sem vehicula euismod at sit amet nibh. Vivamus lectus ipsum, laoreet non placerat sit amet, tincidunt a dolor. Etiam sit amet orci.
-
-- Id velit placerat congue et sed sapien. Integer vestibulum diam at est hendrerit at varius diam ornare.
-
-- Et malesuada fames ac turpis egestas. Morbi rhoncus dignissim tellus at dictum. Nam vestibulum malesuada ipsum, eget.
-
-
-Vestibulum commodo consectetur massa a varius. Vivamus imperdiet turpis quis velit eleifend fermentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque consectetur felis mauris. Aliquam in ligula nulla. Etiam mattis elementum neque, nec sollicitudin massa hendrerit.
-
-Gained extensive experience with: *hasellus pellentesque, justo vitae, erat posuere nec congue mauris hendrerit, aliquam ut diam turpis, vestibulum nisl arcu, pharetra non consequat sed, scelerisque vitae neque, etiam nibh turpis, vestibulum non elementum non, mattis.*
-
-[/block]
-
-
-#### Notable projects:
-
-- In sollicitudin - http://link-to-something.com - dapibus nunc ac interdum. Vestibulum sollicitudin odio ac nisl fermentum aliquam. Mauris non condimentum tellus. Sed semper vivera.
-
-- Luctus fringilla - Maecenas non sapien et est iaculis malesuada eget et libero. Donec arcu risus, venenatis non porttitor vitae, sodales nec nisl.
-
-- Nulla non - http://link-to-something.com - orci quam, a mattis libero. Aliquam non auctor dolor. Proin tellus urna, rutrum bibendum convallis ac.
-
-- Venenatis nec - Curabitur hendrerit eros vitae diam scelerisque pulvinar. Nam rhoncus aliquet urna, at semper magna mattis quis. Quisque id massa lorem, non gravida ipsum.
-
-- Sed tristique - ipsum at vestibulum elementum, leo velit venenatis lorem, vel molestie arcu.
-
-- Lectus non ligula - Vestibulum et enim ut nunc sagittis auctor eget quis risus. Curabitur porttitor, sem ac laoreet iaculis, magna elit sagittis nunc, eu vulputate dui urna in risus. Aenean sit amet aliquam justo. Nullam et dictum velit.
-
-- Phasellus sollicitudin - http://link-to-something.com - nisl mattis risus malesuada feugiat. Curabitur vitae felis et leo aliquet bibendum ac et lectus. Morbi elementum, mauris a vehicula posuere, dolor elit dignissim nib.
-
-
-### The First Company – 2003 / 2004
-### The First Role
-
-- Ut vel tortor ac sem vehicula euismod at sit amet nibh. Vivamus lectus ipsum, laoreet non placerat sit amet, tincidunt a dolor. Etiam sit amet orci.
-
-- Id velit placerat congue et sed sapien. Integer vestibulum diam at est hendrerit at varius diam ornare.
-
-- Et malesuada fames ac turpis egestas. Morbi rhoncus dignissim tellus at dictum. Nam vestibulum malesuada ipsum, eget.
+[back to the top]()
