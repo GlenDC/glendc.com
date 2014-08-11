@@ -7,3 +7,4 @@
 + Developed for Android/iOS, Xbox360 (XNA) and Desktop Platforms;
 + Experience with Kinect 360/One and Oculus Rift;
 + Perforce, TortoiseSN, Git;
+

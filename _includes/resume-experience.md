@@ -17,3 +17,4 @@ Developing serious games for medical and educaional purposes. Several games were
 ## Software Developer at [CodeCombat](http://www.codecombat.com)
 
 Development of tools and web technology for a web game, that teaches people how to program, in several (computer) languages. It's one of the bigger open source project and a true YCombinator Success story.
+

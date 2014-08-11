@@ -9,3 +9,4 @@
 + Ability to take a leading role;
 + Experience in indie- and opensource projects;
 + Love for low level and GameEngine code;
+

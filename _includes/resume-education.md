@@ -12,3 +12,4 @@ Learning Mathematics and Physics for Game Developers. Development in C++, C# and
 	September 2009 - June 2011
 
 ### Communication, Web Technology and Game Development with flash
+
