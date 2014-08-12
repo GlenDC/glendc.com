@@ -1,6 +1,11 @@
 name: Glen De Cauwsemaecker
 url: http://glendc.com
+email: contact@glendc.com
 description: Game Developer and Open Source Hacker
+
+twitter_id: orph4nus
+github_id: glendc
+linkedin_id: glen-de-cauwsemaecker/35/37b/964/
 
 permalink: /:year/:month/:day/:title/
 paginate: 3
