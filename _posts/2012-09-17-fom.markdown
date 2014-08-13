@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Alive and kicking"
+date:   2012-09-17
+categories:  life wordpress
+---
+
+After 72 hours of gaming, I’m back. For those who don’t know, I’m in the organization of Frag-O-Matic, the biggest LAN party of Belgium. It was a lot of fun, and everything went pretty smooth. Although I must say that I’m glad that I finally could sleep again. Your bed feels never as good, as it does after a weekend without hardly any sleep.
+
+I didn’t write any blog posts lately, due to a combination of occurred events, which all started with the website problems. Tomorrow I’ll post an update related to my WIN32 Framework + 2D Engine. Later this week I’ll post than another and bigger update. Next week my lessons @ HOWEST start again, so I’m working as fast as I can. The plan is to be done with the 2D engine and framework before next week. This gives me the change to work on a 2D game while I can start working on the 3D engine and further improve the framework for windows.
+
+Thanks for sending me those emails. I was glad to get them and I hope you can all do something with the given answers. For the ones that didn’t receive an answer yet, don’t worry. I’m answering the mails one by one. Stay tuned and thanks for reading my blog!

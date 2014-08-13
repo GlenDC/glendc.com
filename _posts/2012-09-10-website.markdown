@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Website is back for now"
+date:   2012-09-06
+categories:  general life wordpress
+---
+
+I would like to open this blog post with a big apology. I’m really sorry that you couldn’t reach my website for four straight days (06/09 – 09/09). At the moment I am hosting my website at a free hosting service. As it turns out, free services give no fuck about you. This is of course not a real surprise. The only odd thing is that they don’t mention their visitor restriction on their website.
+
+To be sure things like this won’t happen again in the near future, I decided to switch over to a commercial hosting service. I hope this deal can be closed before next week, as I aim to switch over to a new host as soon as possible. This will cost me some money, but I rather pay some money for a good working service without restrictions, than to disappoint you again.
+
+In the meanwhile I worked on my WIN32 framework. I decided to create a complete 2D engine with the framework. On top of that my 3D engine will be built.The target deadline for this 2D project is next week. I’ll make a blog post about it in the next couple of days if the website won’t go down again. Thank you all for the caring mails and thanks for visiting this blog every couple of days.

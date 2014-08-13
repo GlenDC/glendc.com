@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "2DAE Game Development weekly recap #0"
+date:   2012-09-30
+categories:   3D c++ DAE HOWEST game-development life windows wordpress
+---
+
+_As some of you know, I study Digital Arts and Entertainment in Belgium. I’m in the second year at the moment and from now on I’ll write weekly  a recap article. This article can be seen as a diary exclusively about my school. So what did I do in my first week?_
+
+### Graphics Programming
+
+This course is divided into 2 separate courses. In the first part we’ll learn how to work with  DirectX10. This week we have gotten a fast recap on Win32 and we got a short presentation about Direct2D plus a few assignments for it. Nothing cool or fancy. However it is core basic knowledge that’s important to know. Next week We’ll start working with DirectX10  and we’ll do this using [this book](http://www.amazon.com/Introduction-3D-Game-Programming-DirectX/dp/1598220535). The second part is all about shaders. Most of the time we’ll be working on HLSL scripts. The aim of this course is to be able to write your own shaders for the game engine created in the first course. With no assignments for this course yet, we have the time to play around in Nvidia’s FX composer 2.5.x. Really looking forward to this course.
+
+### Programming
+
+In this more general course we’ll focus on C++11 and the STL. It’s a pity that the learning curve in this course is at turtle speed. The positive flip side is that I’ll have more time for my other school projects. e.g.: this week was all about pointer, references and dynamic arrays and some new features in C++11. Really ?! FML…
+
+### 3D For Games
+
+In this course we’ll learn to create Next-Gen Game Props in 3D. This includes modelling, unwrapping and Texturing. We’ll also create our own textures and later this semester we’ll start working in Mudbox. I’ll have to be careful to not forget about these projects, as I tend to program a little too much.However, It’s great to have a course like this,  as it gives me the opportunity to work on a skill set other than programming. This week’s assignment is to bake and texture a “hatch”. It’s a great first assignment and I’ll share my result next week.
+
+### Level Design
+
+Level design is an important aspect of the Game Development Process. We’ll have to create our own Custom UT3 map in UDK with our own 3D custom assets. Next year we’ll have to create our own level for a non existing game, also with self created 3D assets and textures. It will also be a great alternation on my programming behaviour. No assignments this week, just an introduction to the Unreal Development Kit.
+
+### Integration Projects
+
+Creating a game on your own is not only stupid it’s also pretty impossible if you would like to create a fun game, that also look’s pretty good and is not too small. This course will give us the change to create Game Prototypes for the Windows and Xbox360 platform in groups of 4 people. For this we’ll work together with students from DAE Arts. The first 2 projects are prototypes we have to create on our own. It’s all about learning to create prototypes in Unity3D and prototypes/games in UDK. This week we got a short introduction assignment in which we had to create an Asteroids 3D clone in Unity3D. Getting all the assets, we could concentrate on learning to work in Unity3D. It’s all about experimenting with the possibilities of this awesome piece of software.
+
+**TLDR**: This introduction week was all about preparing us for the following awesome year.

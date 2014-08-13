@@ -1,0 +1,63 @@
+---
+layout: post
+title:  "Custom Win32 Framework #2: 2D Engine #0"
+date:   2012-09-21
+categories:  application-development c++ game-development life windows wordpress
+---
+
+It’s been a while since I wrote a blog post. From now on I’m going to try to write more regularly once again. My website is transferred to a new provider. I hope that switching from a free provider to a commercial one, will solve the downtime problems. The plan is still to have 2D engine done this week. This would be excellent as the alpha test could start than next week, which gives me the opportunity to start working on my 3D engine and further improve my windows framework.
+
+As I’m really busy these days, I’m going to keep this blog post as short as possible. I solved all my bugs I wrote in the last post and At the moment I have no bugs, which is great. The reported bugs and solutions:
+
+1. **Screen Flickers**: My double buffering implementation was incomplete. When you implement a double buffering system, then please don’t forget to use that second channel instead of just using it to fill up with a white brush.
+
+1. **After 30 seconds my application "crashed"**: The problem was that I had some resource leaks. One from a brush I used to paint my background and a few others for some basic brushes. You can detect these leaks by checking your program via the Task manger of windows. There is also 3rd party software than can even do more than that, if you think you need more than just google this software. When you allocate memory than don’t forget to release it, ever.
+I also encountered some other problems, but it’s too much to list every unreported problem. If you ever work with WIN32 yourself, and you encounter a strange problem. Then please, feel free to contact me, the change is big that I’ll have a solution for you.
+
+Let me summarize most of the things I’ve already done:
+
++ Application Programming Public User Interface: Via 2 files the programmer can make everything using the 2D Engine. He can also implement new features and extend on a lot of classes. This gives the more experienced programmer the change to extend the engine where needed, without needing source code access.
+
++ Draw/Fill lines, triangles, rectangles, polygons and ellipses.
+
++ Custom String class and a text/character conversion system. Using text was never so easy and fast before.
+
++ Create font’s, draw (outlined) text.
+
++ FPS meter with graphical interface.
+
++ Bitmap system with build-in animation system, colour key functionality, and lots of options.
+
++ Object system, via these classes you can create objects that have built in collision detection and 2d physics. They will also interact with the lighting system, etc…
+
++ Scaling, ratio and resolution options. Use any ratio or resolution you want. If you want the content can scale with the size of your window, if the window mode allows this option.
+
++ The audio system is included, which allows you to play *.mid, *.mp3 and *.wav files. Other formats will be added in future updates, but as this is not important right now, it will have to wait.
+
++ Lots of functions, structures, definition ready for use.
+
++ Adding window menu’s can be done by writing only a few lines of codes. This gives you complete control without having to do much work.
+
++ ... and even more stuff
+
+There are also some things I’m working on right now or that have to be done before Monday:
+
++ Console system which allows you to write some code on the fly, execute in-game functions or do other cool stuff.
+
++ Button, TextBox and TextField. Things that you really need
+
++ Custom menu, for when the Windows menu doesn’t do the trick.
+
++ Lighting system (2D)
+
++ Function queuelist and other related things.
+
++ More options and functionality related to text and fonts.
+
++ Rewrite the client ratio system and fix some bugs related to this topic.
+
++ Volume (2D) system which allows you to do really cool stuff with bitmaps and other objects. The inspiration for this inspiration comes from the 3D UDK Engine, by Epic.
+
++ Paint your things in layers. The layer with the lowest number will be painted first. The  order in when you call the paint functions have only an influence on the objects within the same layer. By default you will paint in layer 1.
+
+As you can see, I still have a lot to do this week. I really hope I’ll be able to finish it this weekend. I’ll try to give you all an update on this topic later this week. When everything is finished I will also write some articles around certain aspects of the engine and I will make a demo video to show certain things. When all this is done, I’ll start working on a little 2d indie game, which will be used as a promotion for this engine. Thanks for your patience. Have fun reading this article and my other articles. If you have a question than you can ask it via the comment section below or via mail.
