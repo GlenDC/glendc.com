@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "2DAE Game Development weekly recap #2"
+date:   2012-10-16
+categories:   3D C++ DAE HOWEST game-development life windows wordpress
+---
+
+_This week I am rather late with the recap of last week. Had to make some changes to my lifestyle due to a lot of projects coming together at once. Everything is getting back on track so no problems. For a project I learned to work with a new language and the Cryengine 3. I am thinking to write a series of small articles regarding Cryengine 3. The content would be: how to do certain things, url's to interesting websites and how to find what. I would do this as I myself had a lot of troubles finding the correct information to get started. So expect this series in the following weeks._
+
+_Also, I received great news this morning. Together with 7 other students I have the change and pleasure to defend my college and win [the Artgame III contest](http://artgameweekend.com/) in November. Besides that I am also planning to participate in [the Global Game Jam](http://globalgamejam.org/sites/2013/designcenter-winkelhaak) at the end of January in Antwerp. Ok enough blabber jabber, what did I do last week?_
+
+### Graphics Programming 
+
+We made our first 3D scene with primitives and colours in class. The beginning of a lot of fun. We also learned what an environment cube-map is, how to make it and how to implement it in HLSL. I was confused with HLSL last week. Thanks to the [MSDN](http://msdn.microsoft.com/en-us/library/windows/desktop/bb509561(v=vs.85).aspx) and [this url](http://www.realtimerendering.com/). I understand now, the things I was confused about in HLSL. It was also nice to get some background information regarding the why HLSL is, how it is today and to read bout the evolution. So maybe a tip for all of you that are struggling with HLSL yourself?
+
+### Programming
+
+Nothing special, they talked a little about global functions and "advanced" operator overloading. This gives me some time for my other courses and to read some ebooks.
+
+### 3D For Games
+
+Last week I told you about the 3×2 hatches. This week they have to be finished. Which means 6 texture packs, including a diffuse, specular and normal map. Also we have to create a certain High Poly prop, on which they'll give feedback next class. It's my job to create a stair railing, hurray!
+
+### Level Design
+
+How to create shaders and materials in UDK? How to texture in UDK? These are all things we have learned this week together with some advanced shortcuts and some more about where to find what. The block out of my UT 1v1 Deathmatch map is almost finished. Next week I'll probably make a little video just to show it to you.
+
+### Integration Projects
+
+The game concept I created related to the theme "Attraction / Repulsion" was pretty complex and confusing to explain. We had to create a pitch document for it. By next week I'll try to shorten it a little and make it a little bit more clear. Due to copyrights I can't share the document with you guys. However, in 1 or 2 weeks I'll post a short video to show and talk about my prototype.
+
+**TLDR**: I've a lot of things to do in only so little time. Due to some changes in my time management I'm getting back on track, and I hope that at the end of the week I am able to start working on my game engine once again.

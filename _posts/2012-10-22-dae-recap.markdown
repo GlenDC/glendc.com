@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "2DAE Game Development weekly recap #3"
+date:   2012-10-22
+categories:   3D C++ DAE HOWEST game-development life windows wordpress
+---
+
+_Can't believe it, a month full of lessons has almost passed already. I caught up the stuff I was behind on, by giving up most of my sleep. This is not because I work to slow or another slacking reason. Rather it's because of a combination of a few private projects plus the fact that I want to have a certain quality level in my university projects. This week was pretty exciting and It gave me some inspiration for my Game Engine, so expect a few articles about it in the following weeks._
+
+### Graphics Programming 
+
+This week we have learned about normap maps, how they get implemented via code (e.g. HLSL) and how to write a shader which uses information of a normal map. We also had some other fun assignments. Writing shaders are really fun and it's something I want to get a better knowledge ASAP. It's one of the main things in my self education list for the near future. Until then I'll keep it with the school assignments. The DirectX part of this course is getting more and more advanced each weak, towards writing your own 3D engine using the DIrectX 10 SDK. So yes,  this course is very interesting right now.
+
+### Programming
+
+Some other basic C++ stuff, but same explanation as last week. Note to myself: need to restart working on my Engine ASAP!
+
+### 3D For Games
+
+This week we've started working on our first 3D Gameprop which includes a baked normal and an Ambient Occlusion map of the High Poly version, a diffuse texture and a specular texture. As It's still a WIP, I'll show you it next week. We also had to hand in our 6 Scifipanels. If you don't know what I'm talking about, I suggest you read this article of recap #2. Final screenshot of my panels:
+
+### Level Design
+
+The first block out version of my UT3 1v1 DM map is finished. The teacher gave me some points which I have to improve in this first version. As soon as this is done, the play testing can begin to improve the map until it's balanced and ok.  A screenshot of the WIP:
+
+### Integration Projects
+
+Having lots of fun for the first real assignment of this course. Creating a prototype is not only fun, it's also pretty fast to test certain game mechanics and how  they'll work in the game environment. Everything is done with the free version of Unity3D. I sure can use these prototyping skills for the upcoming [Microsoft Imagine Cup](http://www.imaginecup.com/), In which I'll participate. I'll give more information about this soon. In the next recap you can expect a 3 minute long video in which I'll explain what my game is about and what you can do with it.
+
+**TLDR**: Having almost no sleep brings me back up to schedule, content of the projects and courses are getting very interesting, got some refreshing ideas for my Game Engine and I'll participate in the Microsoft Imagine Cup.

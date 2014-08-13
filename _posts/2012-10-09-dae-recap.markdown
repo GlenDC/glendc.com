@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "2DAE Game Development weekly recap #1"
+date:   2012-10-09
+categories:   3D C++ DAE HOWEST game-development life windows wordpress
+---
+
+_We're already in the third week of school, which means the second has already passed. Due to a secret project (for now) I'm not working as active on my engine as I normally planned. Although I have to be careful that I don't forget about school projects. Until now everything is still going really well, it's just something I have to keep reminding myself. It's better to worry than to fail, or at least that's something I hold strong to. So what have I been up to?_
+
+### Graphics Programming
+
+We're starting to learn the basics of DirectX10. This week we have learned about Direct3D and its connection with Direct2D. The weekly assignment was this week all about how to initialize Direct3D and do some basic stuff with it, like drawing text in a window. It's nothing special yet, but they have to start somewhere. In the meanwhile we learned to create our first simple DirectX 10 Shader. It's still a pretty simple one, with just some diffuse and specular stuff. In the meanwhile I learned some HLSL by examples which you can download for free in the Nvidia shared web library.
+
+### Programming
+
+Nothing much to say about programming. The main theme of this week was Operator overloading in C++11. It surprised me that they didn't teach the others about the new reference constructor. Maybe they are keeping it for future lectures together with some extra stuff related to their subject. Also started reading in "[The C++ Standard Library (2nd edition)](http://www.amazon.com/Standard-Library-Tutorial-Reference-2nd/dp/0321623215)". Although I read most of the 1st edition in the summer, I'm not planning on skipping too much of the book. It's always nice to read things twice, keeps the knowledge fresh.
+
+### 3D For Games
+
+Last week, I was a little bit worried about this course. I was never good in Texturing, which makes a 100% texture assignment a living nightmare. Well not that bad, but still, it wasn't the easiest thing I did last week. In the end it went pretty OK which boosted my confidence a little. Next week we'll have to hand in our Sci-Fi panels. Refreshing the 3D knowledge while doing a fun assignment is never bad.
+
+### Level Design
+
+This week was another lecture about how to work in UDK. The lecturer also showed how to sketch an Unreal Tournament map in top-down perspective in 1 hour. Which brings us to this weeks assignment. At the end of this semester we have to hand in a custom Unreal Tournament 3 1v1 DM map. The first “milestone” and first assignment for Level Design 1 is to create a sketch of our map. It still can be rough and is just to give you an idea about the level. With this information we'll start on the block out of the level. So you'll probably read more about this big project the following weeks.
+
+### Integration Projects
+
+Last week we made a basic asteroid 3d version in Unity3D, like you already know. This week we had to create a custom version of asteroids 3D with the free version of Unity3D, based on the basic version made last week. I was rather surprised about the results by colleagues of mine, in a very positive way. I saw a lot of really creative versions and a few really good ones. I'm really glad for this, as this means there is a big change that there are a lot of good people in the second year of DAE. My version was more about the core elements of asteroids instead of new and creative stuff. Having a lot of good colleagues means only one thing. Challenge accepted to try to surprise them with the next solo project. Next week you'll read all about it. We have to create a prototype of our own game within the next 2 weeks. The pitch document for this prototype has to be handed in next Monday, 7 days later, the prototype has to be finished.
+
+A short video to present my custom version of Asteroids in Unity3D:
+
+<p><iframe src="http://www.youtube.com/embed/FHTaqFJjhRA" frameborder="0" width="480" height="360"></iframe></p>
+
+**TLDR**: We start to learn really awesome stuff. Also the assignments get more awesome every week. Oh, I love the second year!

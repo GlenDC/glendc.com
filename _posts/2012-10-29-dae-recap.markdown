@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "2DAE Game Development weekly recap #4"
+date:   2012-10-29
+categories:   3D C++ DAE HOWEST game-development life windows wordpress
+---
+
+_5th week has already past, which means a week vacation, starting from today. Due to this fact I won't post a recap next weekend. The next weeks in DAE will also be a lot different from past weeks. Instead of weekly assignments we'll switch over to long duration assignments and for some courses we already start working on our end assignments which will have to be finished in January. Because of this I'll post a DAE 'weekly' recap every 2 weeks instead of every week. However, the name of this series will remain unchanged._
+
+_In between now and the next week, the site will also get an update with some new content section. On top of that a new project will be revealed. However I also have bad news. I left the team for the big, secret CryEngine project due to personal reasons. At a certain point you have to acknowledge that you'll never win against Time, which I'm doing right now. Leaving this project gives me changes to work on my skills, work on some solo projects and on top of that the Imagine Cup. Ok let's change the subject and start talking about what we did last week, if you're still reading of course._
+
+### Graphics Programming 
+
+DirectX10 is getting at an advanced level. Because of this and the fact that I won't have any class sessions next week, I'll start working on the 3D part of my game engine. It will be  separated from the classical 2D part. Which means that as a user of the engine you'll either have the choice to use the Direct2D driven engine, OR the Direct10/Direct11 driven engine. This new part of the engine will also support 2D games, which helps me a lot to fake some 2D things via the Direct3D API. Next week we'll also start working on our own “über” shader, which basically is a shader that supports most common options and maps used in games. We'll have to use it in our DirectX game project, but more about this in a future recap. In the near future I also am going to start working on creating my own shaders, small and big, and these will all be available for free in the download section. This download section will be part of the updated interface.
+
+### Programming
+
+While the school content is still explaining pretty basic stuff, I'm learning some algorithms. As some of them will also be included in my engine, I'll talk more about this later. For now I'm just going to skip this section of the recap, as there isn't really a lot to talk about this course, yet. If you would like to know which books we use to support this course, you'll have to check one of the first recaps.
+
+### 3D For Games
+
+This course is getting quite serious as we have to create both a simple and a complex prop by next week. My simple prop is a Sci-Fi stair railing, while my advanced prop is a big Sci-Fi TV. Both props are part of a future DAE *.upk package, which will include all the game props of the students, which we can use for our future courses.
+
+### Level Design
+
+Next week our Level Blockout has to be finished, if I remember it correctly. I'll tweak and prepare it by next week. As it is visually not changed a lot, I won't post a picture about it this week. I'll probably capture a video of a Playtest of the first published block out of my 1v1 DM  UT3 level.
+
+### Integration Projects
+
+I learned a lot of this assignment. Next prototype I'll focus more around my game play. I think I spend too much time working on the concept, background story and atmosphere. So next prototype I'll focus a lot more on my gameplay and try to make it as fun as possible. If it isn't fun as a prototype, there is little change it will be fun as a finished game, as the core mechanics will remain mostly unchanged. I'll share the video of the prototype here, but I have to warn you, it will only confuse you. Oh, and if you would wonder what's up with my voice. It's because I tried to pack an audio file of 4:30 into a 3 min video. It worked, but it has some consequences. Next week we'll start working in groups of 4 on our UDK Game.
+
+<p><iframe src="http://www.youtube.com/embed/aemZi0bfH68" frameborder="0" width="480" height="360"></iframe></p>
+
+**TLDR**: In 2 weeks you'll read a new recap about my final assignments for this semester on an updated website. On top of that you'll receive news about my engine and a new important project, later this week.
