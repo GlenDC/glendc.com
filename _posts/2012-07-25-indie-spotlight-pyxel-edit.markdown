@@ -2,7 +2,7 @@
 layout: post
 title:  "Indie Spotlight: Pyxel Edit"
 date:   2012-07-25
-categories: general life
+categories: general life wordpress
 ---
 
 _Indie, short for independent, teams can make epic products. Advertisement however, is something they can't offer, so often they stray in the dark. This is not only sad for its creators, but also for its potential users, whom remain unknown. That's why I devote this series to the indie applications and give them a chance to shine in the spotlights as it is supposed to be._

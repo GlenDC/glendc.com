@@ -2,7 +2,7 @@
 layout: post
 title:  "Developing your first game as a team (1/2)"
 date:   2012-07-28
-categories: Game-Development life
+categories: game-development life wordpress
 ---
 
 _Creating a game on your own, is quite impossible. Cancel the time factor out and you still have to multitask between making art, designing content and programming the source code. This being said, it's fair to say that there aren't many people who have the skill set to make this fairy tale happen. However, the creation of an (indie) game goes beyond the scope of developing software. You have to count in the human part as well, where you have to bring people closer together to join them together as a team, and more than that: a family._

@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "Shared lecture #0: Articles"
+date:   2012-08-31
+categories: general inspiration technology wordpress
+---
+
+_Reading, sometimes it seems like I've been doing nothing else all day long. Although this is not true since I take a break occasualinay, to get out to run and have some fresh air. In between reading I'm also still working on some coding projects. At the moment I'm studying really at the lowest level possible. Processors, electronic circuits, it are all subjects which crossed my mind._
+
+I'm writing this article to share some articles with you guys. I can't find the time to share everything, which is also not possible since I delete a lot of bookmarked articles when I've read them. If there's something you want to study more in detail, then just google that specific thing. By doing this you will never get out of lecture, trust me, I have that problem myself. If you have some interesting stuff to share for yourself, then please do it via a comment below. Without further ado, here's a short list of articles:
+
+## Articles
+
+### Learn a lot in 10 minutes
+
+1. **Low Level**:
+  + A good starting point is the C/C++ Low Level Curriculum by [Alex Darby](http://www.altdevblogaday.com/author/alex-darby/). Thanks to him you will no longer fear assembly and you'll be able to use it to optimize your code. There are 8 parts: [the introduction](http://www.altdevblogaday.com/2011/11/09/a-low-level-curriculum-for-c-and-c/), [data types](http://www.altdevblogaday.com/2011/11/24/c-c-low-level-curriculum-part-2-data-types/), [the stack](http://www.altdevblogaday.com/2011/12/14/c-c-low-level-curriculum-part-3-the-stack/), [more stack](http://www.altdevblogaday.com/2011/12/24/c-c-low-level-curriculum-part-4-more-stack/), [even more stack](http://www.altdevblogaday.com/2012/02/07/c-c-low-level-curriculum-part-5-even-more-stack/), [conditionals](http://www.altdevblogaday.com/2012/03/07/c-c-low-level-curriculum-part-6-conditionals/), [more conditionals](http://www.altdevblogaday.com/2012/04/10/cc-low-level-curriculum-part-7-more-conditionals/) and looking at [optimized assembly](http://www.altdevblogaday.com/2012/05/07/cc-low-level-curriculum-part-8-looking-at-optimised-assembly/).
+  + What is [the Basic Input and Output System](http://thestarman.pcministry.com/asm/bios/index.html) and how  does it work?
+  + A Wiki [list of all x86 instructions](http://en.wikipedia.org/wiki/X86_instruction_listings), used in 32-bit mode
+  + As a programmer you really should read [all articles in this list](http://www.altdevblogaday.com/2011/08/06/demise-low-level-programmer/), provided by [Andy Firth](http://www.altdevblogaday.com/author/andy-firth/).
+  + What is a pipeline exactly, and how does it work? Find it out in [this series](http://arstechnica.com/features/2004/09/pipelining-1/4/).
+  + To fill the big gap between CPU- and memory evolution, we have a cache. Learn the basic principles about it [here](http://codingfreak.blogspot.be/2009/03/cache-memory-part1.html).
+  + [Lex & Yacc](http://dinosaur.compilertools.net/) is the basic tool set to learn the basics about compiles. [The tutorials](http://dinosaur.compilertools.net/) are really great and you'll surely learn a lot.
+  + [Find out everything about the GCC here](http://www.network-theory.co.uk/docs/gccintro/index.html). If you think you ready to dive into the complete source code, then you can [download a subversion here and start to modify it](http://gcc.gnu.org/svn.html)!
+  + OVERBYTE has started a series on optimization. There are already 3 parts and they can all be found [here](http://overbyte.com.au/2011/10/21/optimisationmasterclass1/).
+  + Branch prediction in modern processors, [how does it work?](http://igoro.com/archive/fast-and-slow-if-statements-branch-prediction-in-modern-processors/)
+
+1. **General C++**:
+  + Learn to [use XML in your C++ projects](http://www.artima.com/cppsource/xml_data_binding.html), thanks to this introduction.
+  + Looking for a standard to use in your code, then [this](http://www.insomniacgames.com/core-coding-standard/) can get you started.
+  + Learn to use function pointers via [this great tutorial](http://www.newty.de/fpt/index.html).
+  + The standard STD C++ library is great, but Boost has really great solutions Learn to use Boost by downloading the source code [here](http://www.boost.org/users/history/version_1_51_0.html) and read the manual [here](http://www.boost.org/doc/).
+  + Callbacks and C++. Find out why you should use it in some situations [here](http://www.tutok.sk/fastgl/callback.html).
+  + A website filled with C++ FAQ. It's real and can be found [here](http://www.parashift.com/c++-faq-lite/index.html).
+  + [A background in branching](http://cellperformance.beyond3d.com/articles/2006/04/background-on-branching.html).
+
+1. **Computer Science**:
+  + [An article](http://www.gamasutra.com/view/news/173606/Indepth_Matrices_rotation_scale_and_drifting.php) about matrices, rotation, scale and drifting.
+
+1. **Blogs**:
+  + Random ASCII has tons of great articles related to low level stuff. You can find the website [here](http://randomascii.wordpress.com/).
+  + You just should read 99% of the posts on [#AltDevBlogADay](http://www.altdevblogaday.com/).
+
+That's it for today guys. In the next post in this series I'll share some of the books I've been reading lately I also have to apologize that the list is so short, but I just don't have the time to check my browser history. I hope you enjoy these articles as much as I did!

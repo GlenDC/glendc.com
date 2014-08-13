@@ -2,7 +2,7 @@
 layout: post
 title:  "Hero of the month #1: Charles Babbage"
 date:   2012-07-31
-categories: hero-of-the-month inspiration technology
+categories: hero-of-the-month inspiration technology wordpress
 ---
 
 _Charles Babbage, the father of the computer and our first hero of the month. This series will be devoted to people who did something heroic related to computer science. As the creator of the first computer, he's more than qualified enough to open this series. Now than, can I please have your full attention for this genius, yet rusty man._

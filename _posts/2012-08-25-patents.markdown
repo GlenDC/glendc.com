@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "An opnion on patents"
+date:   2012-08-25
+categories: general wordpress
+---
+
+A patent is an old "invention". Since its [birth in 1474](http://en.wikipedia.org/wiki/History_of_patent_law) it has been used massively. If you would ask me in the past about my opinion on patents, I would have told you it's sad and bad for the technological evolution. It's hard to be surprised today, when you read about a patent battle in the newspapers. For companies, patents mean power.  It's common today, as a company, to collect as many useful patents as possible.
+
+The most recent and discussed patent battle is [Apple Vs. Samsung](http://news.cnet.com/2702-13579_3-1593.html). Yesterday the judge has determined that Samsung has to pay more than 1 billion dollars to Apple. The game development is no exception in the patent story. [A recent example is EA Games, who sues Zynga for the game "The Ville"](http://www.ea.com/news/eamaxis-sue-zynga-for-copyright-infringement). It's only recently that my view on patents have changed, and it's my new opinion I would like to share with you.
+
+Patents are a great invention, if used correctly. In a capitalistic society, the reasons for this statement are obvious. But even in a society where money or even possession has no meaning, there are reasons why patents have a useful purpose.
+
+1. **As an inventor**, you would like some recognition. It would be sad when you invented something, while someone else gets all the fame and glory.
+
+2. Patents forces humanity to be **innovative**. They force us to **invent new technology**. This reason is in particular true for a capitalistic society. Why spend time, energy and money into research if you could just sell products based on old inventions. Thanks to patents companies have to invent new things. This brings solutions that would never be invented, if it wasn't for patents.
+
+While patents are good, they can also be bad. An individual or company can use power for bad reasons. In case of this scenario, the evolution of technology will slow down a lot. If a company has the guts to infringe one or more patents they risk giant fines. Again this can force innovation, so it isn't necessarily bad. However, some patents are just ridiculous. We never invent completely new things, we just invent things based on the things we know already. This gives us layers of inventions and innovations on top of each other. A lot of patents block this natural process, which is bad for everyone.
+
+When companies stop using patents the ‘wrong' way, the evolution rate will increase. There is little change that they will, so there are two solutions for this problem. The first one is to change the laws regarding patents. Because this is also something that will not happen very fast, I have a second solution. In most cases, the judge decides on the guilt or innocence of the accused. Because of their natural power, they can bring balance in the world of patents.
+
+When judges will become balancers, technology will evolve at a rate, faster than ever before. Or at least, that's what I hope. Well then, that was it for the recapitulation of my opinion. **Please share your opinions on this subject via the comment section below**. I would love to read how you think about patents.

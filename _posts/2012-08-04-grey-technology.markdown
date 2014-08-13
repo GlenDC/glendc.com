@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Grey Technology #1: a short introduction"
+date:   2012-08-04
+categories: open-source technology wordpress
+---
+
+_An open world. This ancient idea, futuristic for some, is the reality and future for humanity. We are the first generation that gets the change to really live in an open world where everything is possible. Where innovations and inventions happen at the speed of light. Via open source technology we finally get the change to improve our world on a truly global scale._
+
+Often I tell people one specific example. In that sense it became a little cliché. This little example is a perfect description about how a simple and common action can harm thousands of people. [In the summer of 2009](http://gizmodo.com/5334744/worlds-first-wireless-internet+connected-pacemaker-installed) a new technology was made public, to serve the humankind. It was in that period that the first internet connected pacemaker got installed into a human. 3 years later there are thousands of people biological connected with this technology. These people live because of this and it makes them feel safe. Yet, inventions always have a shadow, with no exceptions. Try to imagine what an evil individual could do with this technology, pre-installed on his victims.
+
+Technology can be used for [black](http://en.wikipedia.org/wiki/Black_hat_hacking#Black_hat), [white](http://en.wikipedia.org/wiki/White_hat_(computer_security)) or a [gray](http://en.wikipedia.org/wiki/Grey_hat) motivation in between. Securing this new open and free world is really hard. Too much security will destroy the open source vision. Therefore classic security is ruled out. So how do we protect ourself? More importantly, how do we prevent people from using technology for evil. The solution to this problem is the same as the cause of it, a free and open-source world. As long as the human kind wants to live in a better world, evil won't win. As long as we work together as a global community we will be always a step ahead. This enables us to use technology for good and help to improve it.
+
+As an individual who loves hacking technology, I'll show how simple and cheap it is to use modern technology for either good or bad reasons. These won't be tutorials, so don't expect step by step instructions on how to do it yourself. However, I will share the key points, my resources and sometimes customized scripts. I'll also talk about the general things related to the subject. If it's not to illegal, I'll also show you my work. As for now I'm still doing a lot of research and general self-education. Keep following my blog and you'll be the first to see my latest content. As a reader you can help me with this series, by mailing me your feedback. By the way, thanks to all of you people who were sending mails already. The given feedback is taken into account and enables me to improve the content on this website.
