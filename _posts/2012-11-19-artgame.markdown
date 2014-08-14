@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "ArtGameWeekend#3 and stuff"
+date:   2012-11-19
+categories:   3D application-development DAE HOWEST game-development inspiration life technology wordpress
+---
+
+Hi, ALL of you. After more than two weeks of silence I'm back with something fresh. A week ago I went to [ArtGameWeekend #3](http://artgameweekend.com/), which was amazing. In a nutshell, it's all about making an art game within 48 hours with a team of people you just met. The theme was all about gesture, which can be interpreted in whatever way you want. It was my first ‘Game Jam' event I did and I must say, it was great!
+
+I never developed for android before. Which turned this event into a learning adventure. My team wanted to create a game which was all about exploring this beautiful world filled with mysteries, beautiful environments and fantastic background music. As a player you can control the main character with your finger. This simply mechanic makes the game very easy, yet fun to play. Just pick him up, explore the world and solve the challenges when you cross them. There is also a possibility that we're going to polish the game that we had so we can release it as a free Android application. If this happens then I'll write a post about it.
+
+The event made me also think about how you can implement controls on a tablet. Thanks to the ArtGameWeekend #3 organization I got the change to play 48 hours with a Samsung Galaxy II tab. It's fun to play with, but it gave me a lot of frustrations. It made me also realize that sleep isn't your enemy. If you don't accept it, then you'll come in strange situations. In situations where artists can solve your problem 100 times faster then you. I also loved the working tempo of all the people. It's cool what people can do when they have a deadline of less than 2 days to create a game. Besides the learning I also found a lovely girl, named [The45th](http://www.linkedin.com/pub/ad%C3%A9lie-vanneste/33/7a5/623). Finding love made this event only better. And I'm pretty sure she'll continue to make me happy for a very, very long time.
+
+I must admit, the event messed up my working schedule, but it was worth it. If you ever get the change to participate in a Game Jam, then please, do it!
+
+I'll also go to the Global Game Jam, in January, 2013. If you would like to see what the other 7 teams made at the event, then I suggest that you visit the official ArtGameWeekend website, where you can watch all 7 trailers. [h]ttp://artgameweekend.com/](http://artgameweekend.com/)
+
+I'm going to end this post now. For the people who didn't receive an answer on their emails yet, don't worry I'll surely answer them later this week. But for now I'm trying to keep up with a lot of deadlines. Thanks for reading and have fun, doing whatever you're going to do!

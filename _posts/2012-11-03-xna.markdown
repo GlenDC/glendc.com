@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Windows Game Development via XNA"
+date:   2012-11-03
+categories:   3D windows wordpress
+---
+
+For those who don't know, XNA is a framework created by Microsoft. It's an extra layer on top of the .NET framework and the DirectX API. So why did they build this extra layer? First of all they wanted to make it easier to create applications for Windows platforms. It should be more about the game logic and less about low level stuff like handling put or managing your CPU ticks. They also opened the Xbox Game Development with XNA. With this framework it's possible to write code which works for both Xbox360 and Windows 7/8 with little or no code changes if you write your code in a proper way.
+
+Since a few days I've started working with the framework. You can write in Visual Basics if you want,  but I prefer C#. Writing in a managed language is pretty fun as you're much less worried about performance and handling your memory and resources. Combine this together with the XNA framework and you really can spend nearly all of your time on writing stuff for your game.
+
+XNADemo
+One of the demo applications I made was just to test the controls. Not only was this to get used to the XNA Framework, it was also to test my Control Management, which allows me to support a keyboard, mouse and GamePad without having to change it in the code. Which means that input handling in my code will always be done via my own Control Management class.
+
+I got an initialization to the XNA Framework through a book. That book is called "[XNA Game Studio Express – Developing Games for Windows and the Xbox 360](http://www.amazon.com/XNA-Game-Studio-Express-Developing/dp/1598633686)" and is written by Joseph Hall, a really awesome guy. You can read the content of this book in a day or two if you don't do the exercises. It's a fun initialization and if you already know how to program then you'll notice that you can skip quite a lot of text.
+
+As usual you can find everything you need to know on [the Microsoft Developer Network (MSDN)](http://msdn.microsoft.com/en-us/centrum-xna.aspx). Just try to write some small demo applications to get used to the Framework. If you have already a lot of experience with developing games, you'll notice that you can make advanced  things pretty fast. You can also download a lot of Game Examples on the [Xbox Creator Club](http://xbox.create.msdn.com/en-US/) if you log into your Xbox Live account.
+
+Have fun writing games for Windows, Xbox360 or the Windows 7 phones. If you have made something you can always share it here, I would love to see your creation(s)!
