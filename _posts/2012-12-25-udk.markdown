@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Creating a game with UDK"
+date:   2012-12-25
+categories:   3D DAE HOWEST game-development UDK windows
+---
+
+The development of games isn't the easiest thing on earth, to do. Depending on the tools you use, the job gets either harder or easier. A great engine is a tool, which belongs in the latter category for sure. There are several good engines available for free or under payed licences. [The Unreal Development Kit, in short UDK](http://www.unrealengine.com/udk/), is one which supports both options. For school projects I use the free version regularly. That's why I decided to start this series, as it will hopefully help both of us.
+
+In the series I'm going to give often url's to other resources. This can be the [Unreal Developers Network](http://udn.epicgames.com/Three/WebHome.html) or a third party website. I do this, as I do not want to rewrite things, which are already written in a great way by other people, who are often more experienced than me. In the series I will often use my own projects as a reference to the content I'm trying to cover. There are already a lot of great resources, tutorials and examples which can be found on the web. With this being said, I would like to repeat that my goal is not to recreate that what's already been done, rather it is to fill up the gaps or answer questions people have.
+
+That's why I would like to ask you to send questions you have regarding UDK to me. You can do this by sending an email to [contact[at]glendc.com](contact@glendc.com) with _UDK Game Development_ as the subject. I already have some content to cover, so I'll probably start with this. In the next post in this series, I'll cover the setup of a new project in UDK. As a writer of this series, I expect a few things from you.
+
++ You have some programming experience, this can be any scripting or programming language. You'll be fine, as long as you know the basic principles such as conditions, loops, variables and such;
++ You have at least a very basic knowledge of what UDK is. With this I mean that you know the user interface. A plus is any experience in UDK, such as creating some UT3 content like a room or part of a level;
++ You're ok with the fact that my English isn't perfect and are able to do things on your own. (self-education);
+
+With this being said, I'm looking forward to see you in the next part, where we'll set-up our first project. Which will be the first step towards the creation of a game. As I really want to help as much people as possible with this series, I appreciate any feedback and input, via mail or a comment below.
+
+Don't be shy to ask questions regarding the development of games in UDK!

@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "Creating a project for your UDK Game"
+date:   2012-12-29
+categories:   3D game-development UDK windows
+---
+
+Ok, before I can begin to explain some cool tricks and concepts, I have too teach you some lessons. The most important and basic lesson is setting up your own project and everything related to it. As it's such an important principle, it's documented well. You'll see that I'll send you from website to website in these first posts, as they do a much better job in explaining these basic principles than me. So, are you ready to create a freaking awesome game? No! Of course you're not, but at least we can start with the creation of a project, right?
+
+When you download UDK from _here_, you'll notice that it's an installer for an UDK project. It's important to know that for every game you create, you'll have to install the engine in a new directory! This is important as you'll do a lot of modifications in several engine source files and configuration (*ini) files. This default fresh installed project has the following things in its directories:
+
++ The Unreal tournament 3 Engine with all its necessary files.;
++ Some example levels (*.udk) accompanied with the correct  package files(*.upk). More about this in a later article. (Note that the amount of available UT3 content is limited and should never be used in your own game, unless you like getting sued, that is);
++ A complete and well structures directory layout, ready for your (awesome?) project;
++ Several software packages. Including ActorX for Maya and 3dsMax, Scaleform, SpeedTreeModeller, the UDK package and many other awesome free-to-use software.
+
+Before I continue I would like to denote the fact that UDK is a commercial product. They are several license formula's for it and more than enough rules, which you should keep in mind. More info about this can be [found at this official source](http://www.unrealengine.com/udk/licensing/). Also if you would like to develop for Android or IOS there is a special license for that. For more information related to mobile development you should [visit this page](http://www.unrealengine.com/mobile/).
+
+Before you do any (visual) scripting or start working on your first level, you should think first. As an UT3 developer you have have the power to write everything with Unrealscript, do everything with the visual [Kismet](http://udn.epicgames.com/Three/KismetUserGuide.html) scripting tool or a mix between them. In most cases you'll have to deal with a mix of both concepts. [Unrealscript](http://udn.epicgames.com/Three/UnrealScriptReference.html) is easy to understand and is developed in the way that even javascript programmers can understand it. If you have a license you'll be able to write and edit native code in C++. Sadly enough, I don't have a license and so I cannot show you anything regarding this.
+
+For the scripting part you'll have to become familiar with the class structure of all the default classes, used in UDK. You can find the complete structure at [this website](http://www.codekisk.com/unreal/ut3/scriptref/). Or you can use the free [UnCodeX](http://uncodex.elmuerte.com/) application which will lay out the structure of your UDK project. This gives you the advantages that it also includes your classes in real time and that you can use it even if you have no internet connection. If you're lost in the syntax and you're not really getting what the UDN UnrealScript Reference is trying to teach you than you can find a more compact and summarized "version" at this [wiki](http://wiki.beyondunreal.com/).
+
+If you really don't know where to start and you would like some detailed and guided explanation. For this, there are several good books written about Game Development with UDK.
+
++ The "Mastering Unreal Technology" series by Jason Busby (several volumes);
++ Unreal Development Kit Game Programming With Unrealscript: Beginner's Guide by Rachel Cordone;
++ Some others, but if you've read the books mentioned above, you'll be more than enough prepared to start creating your own games.
+
+There are also several good Video Tutorial series made for Game Development with UDK. The best but commercial series can be found here. Eat3D makes tutorials for other software packages as well, so be sure to check them out.
+
+If you don't have any money to spend on books or dvd bundles than there are also several websites who offer free tutorials. Let me list you some good ones:
+
++ A great resource is [WilleG Productions](http://willyg302.wordpress.com/), as an active blogger he has tons of articles, all about game development (in UDK).
++ [Marcos Romero](http://romerounrealscript.blogspot.be/) is another active UDK blogger, who has written a lot of interesting and useful articles, which will help you with some nasty problems.
+
+If you just google for _UDK Tutorials_ you'll find more than enough known resources. Also don't forget that the UDN is very useful and awesome. You can find great tutorials on it and it explains everything in detail. A lot of problems you can encounter are also solved via their official forum, which is something you'll notice when you google your specific problems during development.
+
+Now you're ready to start creating your own project. This was one of my basic articles about UDK. Every feedback is welcome. If you have any questions about your game, UDK or my articles then please contact me via mail, twitter or a message below. If you have any useful resources to add yourself, then by all means you can do this via a comment below or by sending it to me, as I'll include these resources in later articles.  Thank you for reading this and have fun with UDK!

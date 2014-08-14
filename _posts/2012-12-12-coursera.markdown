@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Hard lessons learned as a Coursera student"
+date:   2012-12-12
+categories:   general life wordpress
+---
+
+It's been almost a month since I wrote a new blog and sadly enough, there are good reasons for this fact. The bad news is that I got behind on schoolwork since more than a month ago. The good news I can bring is that I'm one month together with my girlfriend from yesterday. Having a girlfriend also had some influence on my time management. This week I'll be back on schedule which means that from now on I'll also write more, once again!
+
+### Scars to remember Life lessons
+
+It all started with having to many private projects, either small or big. However there were also some motivational reasons. 3D is the main example for this, and this course was a big pain to endure. This translated into 2 bad assignments for the course. The next and last 3D assignment for this year is all about creating a "desert" vehicle to use in UDK. Which is actually pretty cool, since I learned to like doing 3D again, since the last days. The intensive work on the project learned me to realize that I actually like to do 3D from time to time. It's odd how fake “hate”-feelings can find its origin in a combination between the fear to create a gun and a lack of time. Either way, this was a great life lesson to learn and the bad assignment will be its scar forever and ever.
+
+### Additional education thanks to Coursera
+
+The web can be seen as an infinitive pool of educational websites. This can be in any form but [Khan Academy](http://www.khanacademy.org/) and others can be seen as great examples. Thanks to my girlfriend I learned to know the future of education. The vision is that everyone can get a great education in his/her interest of field at top universities in the world for FREE. This includes video lectures, course material, tests and lab assignments. If you put at least as much effort and time in it as you would do for a normal university course, you'll learn as much or even more than you would in school. I myself follow different courses, with a max of 3 courses at the same time, as I can't plan more than that in my time management. If you would study like me Cryptography, Heterogenous Parallel Programming, robotics or a course in almost any field of interest. Then just go to [https://www.coursera.org/](https://www.coursera.org/). Register today and enjoy your educational boost, not tomorrow, but today (or any other day, really…)!
+
+### Sleeping like an Everyman
+
+I learned to use my time much more effectively, however I noticed that I still lost a lot of time on irregular and too long sleeping periods. This is where  the Everyman sleeping method comes into play. It's one of the five most common Polyphasic sleep methods. The idea is that you sleep only 4 hours in total each day: 3 hours at night and 3 times 20 minutes spread equally. If you would like to learn more about these methods and how to apply one of them to your own life, than [this Wikipedia article](http://en.wikipedia.org/wiki/Polyphasic_sleep) may be a good starting point.
+
+As promised you can expect more articles from now on. Thank you for reading this. Feedback on this article or anything else on this website, is appreciated as always!

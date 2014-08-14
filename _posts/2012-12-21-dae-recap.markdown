@@ -1,0 +1,74 @@
+---
+layout: post
+title:  "2DAE Game Development, total recap of the first semester"
+date:   2012-12-21
+categories:   3D C++ DAE HOWEST game-development life windows wordpress
+---
+
+_This series started with a weekly recap. This discontinued a few weeks ago as I wanted to spend less time on writing articles and more on working on projects. However I learned a lot in this first semester, both professionally and in life. This article will be quite big, which is something I try to avoid in most cases. You can read everything, read everything very fast or just the parts of interest. The professional content regarding school is divided by course, while everything else can be found at the bottom of the article. I hope you'll enjoy this article and you expect more articles like this next year. **Happy Holidays folks!**_
+
+### Graphics Programming 
+
+For those who don't know, the subjects of this course is the implementation of DirectX10 of a C++ framework and writing shaders for it in HLSL. The course learning rate started slow. This changed, as the learning rate increased each week and by the end of this semester we already know quite a lot of how everything works in DirectX10. The guideline for DirectX10 was [this well respected book from Frank D. Luna](http://www.amazon.com/Introduction-3D-Game-Programming-DirectX/dp/1598220535). We covered most of the basics and main principles. The remaining chapters will be covered next semester. So what chapters got covered this semester?
+
++ **Chapter 4, Direct3D Initialization**: In the first weeks we got a fast recap of WIN32, the windows framework. As we learned most of this last year, this could be done really quickly. A lot of it is self study, so the more spare time you've spent on this, the more you probably know about it. But the important and main principles were explained in greater detail in the class lectures. Besides this they explained us all the main principles regarding the Direct3D library and how things are connected to each other. I think I've written about these lab assignments in the older recaps, so feel free to check them.
++ **Chapter 5, The rendering pipeline**: This chapter was an important one. It learned us how things got rendered to the memory and send to the output for visual representation. It was the first time we could actually start to make some animating floated geometry with our DirectX Framework, which was a great pleasure for the ” hard work”. There is a lot of important content in this chapter, so this is one of many I've read more than once.
++ **Chapter 6, Lighting**: This chapter got only covered in the last weeks, as we needed it to complete our “uber shader”, more about this later. It gives a summary of the different light types used in 3D applications and how to implement them with DirectX10 and HLSL in C++. We did only part of it, so most of it has to be studied as self education.
++ **Chapter 7, Texturing**: We learned how textures work and how it's just about mapping 2D images in a three dimensional coordinate system. As an extra it also teaches how to use the DirectX Texture Tool and some other software for cube maps. We didn't do anything related to the Geometry Shader as this is content for the second semester.
++ **Chapter 8, Blending**: This chapter covered everything related to blending textures, colours and how to work with transparency and clipping via your HLSL Shader. As this chapter was quite small, it got covered together with chapter 7.
++ **Chapter 11, Cube Mapping**: Cube maps are an important concept to implement environmental reflections and such. Sky boxes make also use of this. How to implement all these concepts got covered in this chapter in the time period of one lesson.
++ **Chapter 12, Normal Mapping**: Games wouldn't be the same today, if it wasn't for the fact that we use normal maps. This great invention allows us to create high detailed 3D content, while remaining the benefits of low poly models. This chapter taught us how to implement this magnificent concept in our DirectX10 framework!
++ **Chapter 14, Meshes**: More information about meshes and the ability to use .OBJ generated 3D models and how to load them into the memory. It's also a pretty important chapter with a lot of content.
++ **Chapter 16, Terrain Rendering**: Terrains are a cool way to quickly generate height maps and terrain for games, based on 2D textures. As this chapter is also not too big, it got covered together with Chapter 11.
+Chapter 1, 2 and 3 + Apependices A, B and C: This content got covered in other courses. So these chapters in the book can be used for reference, in case you forgot something.
+
+As you can read, this is quite a lot of content. As I was already working with OpenGL4, I already knew some things. But I learned a lot of new stuff and how it works with DirectX. As I'm interested in Graphics Programming I'm going to do some more self education about DirectX in the following weeks. HLSL is also an important part of the story. We learned the principles and the syntax of the language. To do this we created a few HLSL shaders. So what exactly did we create?
+
++ A simple vertex diffuse shader as an introduction to HLSL and Nvidia FX Composer 2.5.x
++ A Per Vertex Lighting Shader to learn more about specular and expand our knowledge slowly
++ A pixel shader which applies environment maps and a specular level texture to it.
++ A pixel shader which allows you to load and use a diffuse and normal texture.
++ A basic Glass Shader pixel shader
++ A Fresnel falloff pixel shader which also allows the use of opacity blending and clipping.
++ A textures which allow the blending of moving textures to create some animated shaders. An example for this is smouldering wood.
++ A Vertex Toon Shader. Next semester we are going to learn to make a better pixel shader version.
++ The Uber Shader, which applies all our HLSL shader knowledge into one complete shader with the exception of shader 7 and 8. It also has 3 specular models: Blinn, Phong and Cook Torrance.
+
+Next semester we're going to learn more about HLSL. Graphics Programming will also become one big course which combines the shaders and DirectX into one concept. This will allow them to teach us how to create Geometry shaders and such. The course got me really into Graphics Programming and I really like to do it, so you can expect some articles in the future regarding this subject.
+sphere graphics programming
+
+### Programming 
+
+C++11 is a great language, and is the standard in the Game Industry. I love the content in this course, but the rate in which they teach it, is way too slow. Most, if not all, of what they showed were concepts I already learned last summer vacation or earlier. But, that doesn't mean that the lab assignments weren't interesting to do. The combination of the theory and assignments were a great refreshment regarding my C++11 knowledge. The Guideline for this course is [this excellent and well-detailed book](http://www.amazon.com/Standard-Library-Tutorial-Reference-2nd/dp/0321623215/ref=la_B001ITYMY2_1_1?ie=UTF8&qid=1356114871&sr=1-1) by Nicolai M. Josuttis. It's not hard to believe that “The C++ Standard Library: A tutorial and reference” is one of the best books regarding C++11. On top of this book we also learned how to use XML files via [Pugi XML](http://pugixml.org/) and how to use MySQL in your C++ Projects. So what got covered this semester?
+
++ The creation of our own List, Pair and Map data structures. It is simpler versions of the one you can find in the STL library and are merely created for academic purposes.
++ Operator overloading
++ Callbacks
++ Functors
++ Templates
++ Iterators and the different STL datastructures
++ Algorithms for sorting data structures
++ Lambdas
++ Using XML in C++ projects via the PugiXML framework
++ Using MySQL Databases in your C++ Projects.
++ New concepts and implementations in C++11 ( e.g. for_each, minor syntax improvements, the auto keyword, etc..)
+
+### 3D For Games
+
+I learned some important life lessons the past months, Sadly the 3D for Games course suffered a little bit as a trade-off. This semester we learned to create 3D content for games and how to prepare them for the UDK3 engine. We'll have to use all our 3D knowledge for the final assignment, which is the creation of a Desert Vehicle. More information about this later. They learned us how to create and use diffuse, specular, glow, gloss, shadow, ambient occlusion, opacity, normal textures. We used 3DSMax for this together with the [Xoliulshader 1.6](http://www.laurenscorijn.com/viewportshaderversions/Xoliulshader_v1.6.rar) created by Laurens Corijn. We also learned how to bake high poly models into low poly models. As an extra we also learned about a new automated texture tool. Information about it can be found [here](http://quixel.se/).
+
+### Level Design
+
+Because of personal reasons this was also a course which suffered a little bit. The final assignment, a UDK 1v1 DM Map has to be finished in 3 weeks. I had a good start,  so with some motivation and a lot of attention it shouldn't be a problem. For those who have never read my other recaps. In Level Design we learn to work with the Unreal Development Kit 3 by Epic. For compatibility reasons we work with the May version of 2012. Together with 3D we also learn how to import 3D content into the UDK engine and how to create Materials and Shaders with the build in tools. To proof our knowledge regarding this engine we have to create a small 1v1 Deatmatch level for Unreal Tournament 3. We can and should use the content delivered with the Epic Packages. We can also use our own content, but this is more the target for the next semester. Next semester will be all about creating our own level with triggers, events and custom content.
+
+### Integration Projects 1
+
+This is one of my favourite courses, as it's one of the reasons why I study Digital Arts and Entertainment in the first place. In this course we get the change to create Prototypes for Games and to create a complete game together with artists. To achieve this we are allowed to use UDK. Prototypes got mostly made with Unity3D. I'm not going to spend too much time on the game I'm creating as I'm writing a series of blog posts on how to create your own game in UDK, you expect the first post soon. All I'll say for now is that my Gameplay code is as good as finished, which means I have a lot of time to create a working level editor for the game, which will allow the player to create his own level as well.  Oh and btw, it's a tablet game. It's my second tablet game, after I created my first mini game at [ArtGamesWeekend #3](http://www.glendc.com/?p=430)!
+
+### Life lessons and other things I've learned the last couple of months. 
++ **Work only on a few projects at the same time**: I had periods where the combination of school, self-education, sport and all the different projects got impossible to combine. It got to the point where my body crashed into unexpected sleeping periods. It's also because of this that I neglected some projects, including schoolwork. It's also sad, as I had to leave a really big project. I would like to thank Olli for the great change he gave me to join his team on the Law Of War Kickstarter Project. It gave me the change to learn to work with the Cryengine, Lua and some other stuff. It was with pain in my heart that I had to leave this project. More information about it can be found here.
++ **Know your limits**: Your body needs some sleep, while you still have to do a lot of things. Because of the many mistakes and experiments regarding lifestyle, I failed a lot in it. On top of this also a lot changed in my life which messed up my time schedules. Finally I learned to know what Polyphasic sleep methods. At the moment I'm adapting to the Uberman sleeping methods which allows me to have 2 hours of sleep each day. People survive on it, so I believe this will help me a lot. As long as I don't take too many projects at the same time, I will have just enough time to do everything I want.
++ **Girlfriends change your life and time schedules**: In November I learned to know my girlfriend. As I always single until this point, it changed my life quite dramatically. I have to think for 2 people and it also changes the way in how you plan the things you want to do. I'm really lucky with her as she's a computer engineer herself, which allows me to talk with her about my professional interests. It also allows us to work together for most of the time. A relationship has good and bad moments, but I'm more than happy I can share my life and passion with her.
++ **Running is a great and fast workout**: Working is fun, but my body needs a good workout from time to time. It allows me to clear my mind and use my body for a change. It's also a great alternative for when you don't have time for a bigger workout in the Gym. Being in great shape allows you also to work faster, better and more concentrated.
++ **Multiple computers are overrated**: There was a time when I was using 3 computers simultaneity with 2 screens per computer. However I discovered it's not so great after all and it creates only a lot of noise and distraction. So now I just work on one computer at the same time. This also allows me to create a second desk for my girlfriend, which allows her to work while still being in the same room with me.
++ **There is a time for everything**: As you may have noticed I always have to do lot's of stuff. I tried a lot of methods to keep track of the things I have to do. I've found that a combination of Google Calendar and a good (vba) scripted Excel Sheet can do wonders. It's something you can set up very quickly, while still being super efficient. It helps me to achieve the goals and deadlines in time, while still being able to push myself into developing private projects with accurate milestones.
