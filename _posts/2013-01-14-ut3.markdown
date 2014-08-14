@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "A custom UT3 Deatmatch level"
+date:   2013-01-14
+categories:   3D game-development UDK windows
+---
+
+When people create UT3 levels they'll probably do this via the UT3 Editor, as this is the correct and valid way to make custom UT3 level. I had to use UDK, which is sad, as I can't export the level to the official UT3 Game now. Which is strange as I can't see any legal issues in the flow from UDK to UT3. This makes it hard for me to share the level with you. I'll probably place the files online in the near future, so keep an eye on my website if you're interested. I would also like to tell you that all the content you see in this level is property of Epic. Everything can be found in the packages shipped with the UDK May 2012 version. I've edited some assets, these are added in a custom package for this level only.
+
+### Backstory
+
+A long time ago, there lived ancient people at the bottom of the mountains. They believed that 'their' Gods could visit the top of the mountains, as these were very big. So they build a temple on top of it, to give shelter to the Gods. Sadly, the people disappeared as diseases and wars came. Many centuries later a big oil company found some big oil sources near the mountains. To be able to transfer the Oil over the mountains they had to build a nuclear driven system. As years passed, the company showed less and less interest in maintaining the place, as it was hard to reach and very expensive. After a while they dropped the site, which made it a very dangerous zone, as things got broken very quickly. Now nature is taking back it's Territorium with some nuclear help.
+
+### Demo
+
+As the level is at its best when you can see it in motion, I've made a small Demo. You can see me playing the level as a noob. I'm not a skilled UT3 Gamer so don't expect anything crazy. The only purpose of this video is to show you the level.
+
+<p><iframe src="https://www.youtube.com/embed/d1diJyJ81VM" height="360" width="480" allowfullscreen="" frameborder="0"></iframe></p>
+
+Here are some more screenshots. Thanks for reading this post, comments are welcome as always via a comment below or by sending me a mail!
