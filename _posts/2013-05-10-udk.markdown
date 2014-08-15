@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Win a free copy of the new book on Mastering UDK Game Development (Closed)"
+date:   2013-05-10
+categories: contest game-development inspiration review UDK wordpress
+---
+
+I have teamed up with [Packt Publishing](https://www.packtpub.com/) to organize a Giveaway of the Mastering UDK Game Development.The 3 lucky winners will receive a digital copy of their new book. In case you would like my opinion on this book, you should read my previous article where I wrote a review about it.
+
+### Overview of the book:
+
++ Augment your UDK skills using advanced projects and practical examples.
++ Learn about advanced aspects of UDK game development, ranging from the creation of a 2D-style platformer to building your very own Western-RPG style inventory system using Scaleform.
++ Learn to create a 2D-style platformer, a spaceship rail-shooter, as well as your very own custom HUD.
++ Learn to work very advanced in kismet and get a fundamental foundation in unrealscript, which will allow you to create fully custom games.
+
+### How to Enter?
+
+All you need to do is head on over to the book page (Mastering UDK Game
+Development) and look through the product description of the book and drop a line via the comments below this post to let me know what interests you the most about this book or what you would like to learn from it. It’s that simple.
+
+**Deadline**: The contest is closed, winners will be notified by email.

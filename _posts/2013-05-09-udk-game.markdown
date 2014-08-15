@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Mastering UDK Game Development review"
+date:   2013-05-09
+categories:  game-development general review technology UDK wordpress
+---
+
+_A month ago, Packt Publishing approached me regarding a new book. Their question was, whether or not i could write a review for this book. Normally I don't accept these offers, but this offer seemed good to me. It would allow me to expand my knowledge regarding UDK. It would also fill the missing holes and probably remove some doubts I had about certain things. This being said, I accepted the offer and what you will read in this post is an objective review about "Mastering UDK Game Development"._
+
+The book starts with an introduction to UDK and the strong Kismet "tool", by creating a Platformer. For those who don't know what kismet is, let me quote you a part from the book: Kismet is a system of visual scripting in UDK that makes it possible for people to affect the game world and design gameplay events.
+
+The explanations are clear. In which they give you exactly every step you have to do. They also don't force you all the alternatives at once. They explain one or two ways how to do something, and in later chapters they'll gently explain the other ones.
+
+However a small problem is that they sometimes don't tell why we put a variable at a certain value. Let met give you an example: Click on the Player Spawned event's Sequence Event to have the Properties window come up and change the value of Max Trigger Count from 1 to 0.
+
+In this case, the reader doesn't have the slightest idea why this is. In case you wonder, putting a counter like this at a zero value, disables it. So in short, it will now trigger infinite. I would also like to point out that this book is not a beginners book. Before reading it, you should know what UDK is and how the User interface works, as the book doesn't always give detailed pointers regarding this. They also don't give a lot of tips regarding the UI. If you don't know anything about UDK, I suggest that you first read information regarding this at [this website](http://www.unrealengine.com/en/udk/documentation/).
+
+From the second chapter on the kismet gets more advanced, the more advanced the longer the explanations become for simple actions as adding nodes. This is mainly the problem of how node based programming is used nowadays. You need a lot of nodes, to do simple stuff. It's slow and you have no overview. The book tries to keep it as simple as possible, but it can't escape the problems of node based programming and so the more advanced the kismet becomes the longer and more boring the explanations get.
+
+Huge groups of nodes can also mean that you'll bump into an infinite loop, a quick fix is to put a delay on a chain of nodes. The book explains this only at chapter 3, a little bit to late as I bumped into this problem in chapter 2 already. But it must be said, the book gives some great tips and tricks, that you wouldn't find easily somewhere else. Even experienced users will benefit from this book because of these insights.
+
+[Scaleform](http://udn.epicgames.com/Three/Scaleform.html) is a very powerful way to create a custom and very dynamic custom HUD for the game your making with the Unreal Engine. The book knows this as well and will teach you how to set it up and how to use [AS3.0](http://gamedev.michaeljameswilliams.com/2008/09/17/avoider-game-tutorial-1/) code together with kismet. At the end the book gives you also a great primer on unrealscript, the UDK scripting language. It's a great starter to learn the language and it also recommends [a good and free IDE](http://uside.codeplex.com/) build on top of visual studios. Once you read this chapter you're ready to dive into the [UDN unrealscript website](http://udn.epicgames.com/Three/UnrealScriptHome.html) to become a Uscript guru.
+
+In general the book is clear and not too detailed. It gives you great insights in many of the different aspects of UDK and gives you references to learn more about a specific subject, in case you wanna be adventurous. It combines a lot of information you would otherwise not find on the internet very easily. In case you want to become a more advanced UDK user, you should give this book a try. You can find the official information and buy the book [here](http://www.packtpub.com/mastering-udk-game-development/book) for a fair price.

@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Testing the Oculus Rift at Grin!"
+date:   2013-05-05
+categories:  general inspiration technology wordpress
+---
+
+Friday I went to [Grin](http://grin.be/) in Antwerp. There I got the chance to play their unique [Oculus Rift demo](http://www.grin.be/blog/?p=975). For this I would really like to thank them. In this demo you can fly as a helicopter pilot above a small island. Near the island you'll find a few helicopter platforms, including one that the ship where you start.
+
+In case you were wondering, here is a short video where I learn to get used to the feeling of it and the controls.
+
+<p><iframe src="http://www.youtube.com/embed/Ku41-xVKGSU" height="315" width="420" allowfullscreen="" frameborder="0"></iframe></p>
+
+The cool thing about this, is that thanks to the [Razer Hydra](http://www.razerzone.com/gaming-controllers/razer-hydra), which they support in their demo, that you'll be truly living in the world. It's no longer just a video game, you are actually seeing what the pilot sees, and if you move, so will he. This isn't to be taken lightly, as you can become slightly dizzy, by hanging outside your helicopter with your upper body, while watching down.
+
+I'm happy that I got the change to try out this technology, and I'm pretty sure that this can really change the way we play games. I believe that a combination of different technologies is the key here, as grin has already proven.
+
+This YouTube video takes the concept of combing technologies even further:
+
+<iframe src="http://www.youtube.com/embed/qpHWJMytx5I" height="315" width="420" allowfullscreen="" frameborder="0"></iframe>
+
+With this being said, I'm pretty sure we gonna hear more and more about these great inventions. And I hope I get the chance in the near future to play with these things myself by really creating a game with technologie like this.
