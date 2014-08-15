@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Prototyping an XNA game in a week!"
+date:   2013-02-29
+categories:   DAE HOWEST game-development wordpress
+---
+
+_A new semester, new challenges, new things to learn. For the integration projects course we again have to make games in teams of 4 to 5 people. Preferable 2 artists and 2 programmers. However in a lot of cases, the programmer is not focused on programming. Same story, different content for the artists. Motivation of team members can also be a problem as some people aren't really interested in making games. Anyway, we first had to make 2 prototypes in 2 weeks. So let's talk about how the development of prototype 1 went and what I've learned._
+
+Making a chain reaction of TNT is fun as a developer, but a waste of time if you're prototyping a game in 1 week. So don't do it!
+
+Creating a prototype with just XNA is not that easy, as it is with an Engine like Unity or UDK.  We first had to make a very fast working engine with a lot of foundation classes. Also defining the complete structure and seeing how everything will work took a while. Some examples of what I define with foundation classes, are things like a Stopwatch, an XML parser, who does everything automatically while still being very fast and the level reader. To create the levels, we used a free tool to generate tile based levels and export it to an XML file. You can download the software [here](http://www.mapeditor.org/).
+
+Designing your prototype is the hardest part. You're limited to a lot of restrictions. A lot of game features you want in the final game won't be available in the prototype and so on... So designing the game with the limited amount of content and the little time you have is your goal. Making the game challenging and fun to play is the hardest part. It is something you will be prolonging by making up excuses. "Still having to develop feature x", "first i need to do y", "oh we are missing a good level for this". STOP making to much content and stop wasting your time on more features.
+
+A lot of fun, but not very useful as a proof to test your game play. Instead of doing cool effects, you should be createing challenging levels. Or at least fun levels if the game isn't meant to be challenging.
+
+Playtesting should be done right from day 1, or ASAP in case you start from scratch without an engine. Implement the core mechanic and 1 feature. With this you can create your first level and start testing. Is it fun? Good job, how can you use these mechanics differently? Is it boring or not challenging? No problem, try to find a way to make it fun and challenging. Try to make fast little puzzles, challenges or levels with the content you have. As soon as you notice that you need more mechanics or content to make it less repetitive, then you can go back to the designing table and come up with a new mechanic or feature.
+
+There are some exceptions. Don't spend too long on testing the same mechanics over and over by making too much levels. You've proven the value of the mechanic when you've created some levels with it that are fun. For the sake of your deadline, just move on to the next thing you want to test. Every test should proof that a mechanic, a feature or a concept of the game works. Don't get me wrong. It's not easy to get this right. I haven't achieved this in a prototype before. That's because most of the time I spend, is spend on useless content or work on a certain feature that isn't important for the game at this moment.
+
+The things I've said in this post are things I've learned myself when making this prototype. So let's hope that I achieve in fixing my mistakes for the next prototype, this week!
+
+**If you would like to play the prototype I made, then you can download it via [here](http://www.2shared.com/file/y2WtLP2y/Prototype_BAM.html)**. You play as the professor that carries bombs. If you have still have bombs remaining you can move them around and then let them explode. Blocks with ‘?' give you extra range the next time you let a bomb explode. You need to reach the white block with the professor to proceed to the next level. The final game would be in 3D, but for now we made a simple 2D version as a prototype.
+
+### Note
+In case you download the game, make sure that you have the latest version of Microsoft XNA Framework Redistributable 4.0 installed on your computer. Please download it [here](http://www.microsoft.com/en-us/download/details.aspx?id=20914) if that's not the case. Otherwise the game won't start up.

@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "A week in the UK"
+date:   2013-02-11
+categories:   DAE HOWEST life windows wordpress
+---
+
+At the time of writing I'm sitting with a cup of tea, still being a little sick, in front of my laptop in my little student room. The past week I've been in the UK, while spending most of my time in London. The main reason for the visit was to visit all kinds of Game development companies, including: Lift London, Rare, Rebellion, BossAlian and Splash Damage.
+
+I didn't go the the UK on my own. It was al with my Collage University and all the Company Visits appointments were only possible because of them. I learned a lot of it. The most valuable lesson I learned from these visits is probably that in order to work in a big company, I should **focus on one aspect of programming within Game Development**. I already started to understand this due to what happened the last months and I'm happy that last week confirmed it. One company also talked about an aspect of programming, I never really thought about, and that is writing code that tests other code. I totally dig the idea!
+
+### Different company cultures
+
+In this week I also experienced how much difference there is between different kind of game development companies. You have small and big 3rd party developers who create games using tools and technology from other companies. While you also have companies like Rare who are a first party developer (for Microsoft) and have really close access to their latest technology. Professionally, this is really interesting, but it also makes it harder to work for such a company sadly enough. Finally, you also have really young companies with a lot of talent and very young people. These companies are probably the most fun to work for, altought maybe not the most interesting.
+
+In the end it was a great trip and it only boosted my motivation to improve. If you ever get the change to experience a trip like this, then my only advice would be: do it!
+
+All my pictures taken in the UK are available at one of my public photo albums at facebook. You can check it out on [this url](http://www.facebook.com/media/set/?set=a.10200687355166675.2211110.1244978043&type=3).
