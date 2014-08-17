@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Picture of the Day"
+date:   2013-09-26
+categories: general inspiration life wordpress
+---
+
+_A long time ago my girlfriend was telling me about an idea she had. The idea was to have some kind of screenshot every day, to show what you’ve done that day on your website. It was a great idea, but until now I haven’t done anything with the idea myself_.
+
+Since today there is a new page on my website, called "Picture of the Day". My life is quite busy and I never find the time to really blog about the things I do in real time. However I do think it’s fun to share what I do with you. The solution is that every day I’ll upload a picture of something I did or experienced that day. This way I can show you part of my life, without having to spend an hour on an article.
+
+Make sure to check it out and let me know what you think about this.

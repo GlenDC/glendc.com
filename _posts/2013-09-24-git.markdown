@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Git Tutorial, Hello git!"
+date:   2013-09-24
+categories: git open-source technology wordpress
+---
+
+I read about [git](http://en.wikipedia.org/wiki/Git_(software)) for the first time when I started using [Github](http://github.com/). For those who don't know, Git is a revision control system and allows you to manage your source code in a safe way. This piece of technology was originally developed by [Linus Torvalds](http://en.wikipedia.org/wiki/Linus_Torvalds) and many others. And although it is very powerful, it is also very easy to screw things up for yourself or others who work with you..
+
+Originally I started working with git via all kind of software that would provide me a user interface. Recently I switched to the command line, as it was advised by several colleagues. While the command line gives you more control and is much cleaner, it makes it also more easier to get into problems. Therefore I'm starting this tutorial series to get everyone who is interested in git, the chance to learn it. I'm no master in it myself and there is a lot of good lecture you can find on the web to learn it. In this series I will more then once refer you to one or several other sources of information.

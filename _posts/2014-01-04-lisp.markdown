@@ -1,0 +1,54 @@
+---
+layout: post
+title:  "The start of a journey in LISP"
+date:   2014-01-04
+categories: inspiration life open-source wordpress
+---
+
+Until a couple of days ago I never had heard of [LISP](http://en.wikipedia.org/wiki/Lisp_(programming_language)). It was only because I was reading [this article](http://www.gamedev.net/blog/355/entry-2250592-become-a-good-programmer-in-six-really-hard-steps/), which has a lot more good points in it, that I learned about the language family. Yes a family, as their are a lot of dialects of the core language 'idea', some very developed and polished, other more experimental. All dialects have it's strength and weaknesses, and it is probably up to you to decide which one fits the most to your goal(s) and requirements.
+
+So why would you want to learn [LISP](http://en.wikipedia.org/wiki/Lisp_(programming_language)). Well you can read a lot in [this comment](http://www.gamedev.net/topic/479651-anyone-else-using-common-lisp-in-their-game/page__view__findpost__p__4141855), published by the author of the article I mentioned before. But a lot of it can be summarized with this sentence, quoted from that same article:
+
+> It won't do anything for your day-to-day programming, because you aren't going to use it; but it will make you a better thinker, and it will give you a deep understanding of the beauty of simple recursive systems
+
+As I was completely new to it, I was looking for something that could give me a great start, something that could learn me about the philosophy behind the lessons and introduce me to it. I do a lot of self-education and a lot of my self-educated knowledge comes from courses I follow at online educational platforms, such as [Open Course Ware](http://ocw.mit.edu/index.htm) from MIT. It was here that I found an interesting course that gives a great introduction to LISP.
+
+[The Structure and Interpretation of Computer Programs](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/) course consists of 10 2-part video's, which will give you the foundation you need to start reading more complex materials, to give you an even deeper understanding of the things you're interested in. The course has 3 big pillars it will focus around:
+
++ [Black Box Abstraction](http://en.wikipedia.org/wiki/Blackboxing)
++ [Conventional Interfaces](http://rra.cs.ua.edu/proglan/accum.html)
++ [Metalinguistic Abstraction](http://en.wikipedia.org/wiki/Metalinguistic_abstraction)
+
+So far I have completed the first 2 videos of the course. I'm very amused by the course and it keeps me quite interested from the begin- until the end- segment. The professor gives you even homework you can do, to practice the content seen in class. An example of this is a really slow algorithm we've seen, to calculate a certain [Fibonacci number](http://en.wikipedia.org/wiki/Fibonacci_number).
+
+Code of the original algorithm:
+
+	(define (fib n)
+	  (if (< n 2)
+	      n
+	      (+ (fib (- n 1))
+	         (fib (- n 2)))))
+
+If you don't understand why this algorithm is so slow, by just looking at the code, try to visualize it in a tree and you'll notice that you'll get more and more duplicated calculations the bigger n is. As a practice I wrote a much faster, linear iterative, program. The code I came up with:
+
+	(define (fib_r x y i)
+	  (if (= i 0)
+	      x
+	      (fib_r y (+ x y) (- i 1))))
+	(define (fib n)
+	  (fib_r 0 1 n))
+
+Alternatively you can also write it without the burden of an extra named function by just defining the recursive function within the body of your normal function:
+
+	(define (fib n)
+	  (define (fib_r x y i)
+	    (if (= i 0)
+	        x
+	        (fib_r y (+ x y) (- i 1))))
+	  (fib_r 0 1 n))
+
+Both versions are used in the following way:
+
+	(fib 10) ; == 55
+
+I still have a long way to go, but slowly but sure I will have the knowledge I want about LISP, and become a better programmer. Thank you for reading this and I would love to hear what you think about the language family and this article.
