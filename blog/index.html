@@ -23,7 +23,7 @@ title: blog
 		{% endif %}
 
 		<article class="post">
-			<div class="post-title"><h3><a href="{{ post.url }}">{{ post.title | strip_html | truncate:42 }}</a></h3></div>
+			<div class="post-title"><h3><a href="{{ post.url }}" title="Click here to read: {{ post.title }}">{{ post.title | strip_html | truncate:42 }}</a></h3></div>
 			<div class="post-date">{{ post.date | date: "%-d %B %Y" }}</div>
 		</article>
 	{% endfor %}
