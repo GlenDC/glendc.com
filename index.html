@@ -26,12 +26,12 @@ title: home
 {% for post in paginator.posts %}
 
 	<article class="post">
-		<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+		<h2><a href="{{ post.url }}" title="Click here to read: {{ post.title }}">{{ post.title }}</a></h2>
 		<div class="post-content">
 
 			{{ post.content | strip_html | truncate:256 }}
 			{% if post.content | size > 256 %}
-			    <a href="{{ post.url }}" rel=\"nofollow\" class=\"read-more\">read more &raquo;</a>
+			    <a href="{{ post.url }}" rel=\"nofollow\" class=\"read-more\" title="Click here to read: {{ post.title }}">read more &raquo;</a>
 			{% endif %}
 
 		</div>
