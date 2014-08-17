@@ -112,10 +112,27 @@ hr {
 
 .post-title {
 	float: left;
+	width: 70%;
 }
 
 .post-date {
 	float: right;
+}
+
+.post-date-month, .post-date-year {
+	float: left;
+	display: inline;
+	width: 98%;
+	padding: 1%;
+	margin: 5px 0;
+}
+
+.post-date-month {
+	background-color: #052730;
+}
+
+.post-date-year {
+	background-color: #073642;
 }
 
 /*** used for imported wordpress articles ***/
