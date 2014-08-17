@@ -1,0 +1,10 @@
+description:
+  A final project for some programming courses in collage university.
+video:
+  host: YouTube
+  id: -21yKQ9rgHo
+layout: project
+published: 	true
+short:     	a game and editor written in C++ with DirectX10
+title:     	Lemmings 3D
+technology: [C++, DirectX10, PhysX2.8]

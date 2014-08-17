@@ -1,0 +1,11 @@
+description:
+  The game is fully written on top of XNA, and will be released for Windows 8, Windows Phone in the near future.There is a fully functional world editor which will be available to the users for editing and releasing maps. Target audience is people from 15 to 30. In the game we are create awareness about the current state of the usage of energy sources. By implementing either a negative or a positive effect to the player’s choices. Thanks to the world editor, a community will be able to create and share their own interpretation to the world. For this was also an engine written which will be released in the near future. 
+video:
+  host: YouTube
+  id: IOrddOzDTYA
+layout: project
+published: 	true
+short:     	game and editor written in C# with XNA
+title:     	Green Tower
+technology: [XNA, C#, HLSL]
+team: [HannesD, JoeriV, WimVB]

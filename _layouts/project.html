@@ -1,24 +1,59 @@
 ---
 layout: default
+
+HannesD:
+  name: Hannes Delbeke
+  website: http://hannesdelbeke.com/
+
+JoeriV:
+  name: Joeri Vromman
+  website: http://joerivromman.com/
+
+WimVB:
+  name: Wim van Brussel
+  website: http://mindschnapps.blogspot.co.uk/
+
+SvenR:
+  name: Sven Roels
 ---
-{% if page.image %}
-  <div class="span5 logo">
-    <img src="{{ page.image.url }}" title="{{ page.image.title }}" alt="{{ page.image.alt }}" />
-  </div>
-{% endif %}
 
 <div class="span10">
   <h1>{{ page.title }}</h1>
+
+  {% if page.technology %}
+    <tr>
+    {% for technology in page.technology %}
+      <td>{{ technology }}</td>
+    {% endfor %}
+    </tr>
+  {% endif %}
+
+  {% if page.video %}
+    {% if page.video.host == "YouTube" %}
+      <iframe width="500" height="280" src="//www.youtube.com/embed/{{ page.video.id }}" frameborder="0" allowfullscreen></iframe>
+    {% endif %}
+  {% endif %}
+
   <p>{{ page.description }}</p>
 
   {% if page.website %}
     <div class="website"><a href="{{ page.website }}">{{ page.website }}</a></div>
   {% endif %}
-</div>
 
-<div id="project-description" class="span16">
-  <h3>What we did for {{ page.title }}:</h3>
-  {{ page.project_description }}
+  {% if page.team %}
+    <div class="project-team">
+      <h2>I couldn't do this project without my team:</h2>
+      <ul>
+      {% for member in page.team %}
+        {% if page[member].website %}
+          <li><a href="{{ page[member].website }}">{{ page[member].name }}</a></li>
+        {% else %}
+          <li>{{ page[member].name }}</li>
+        {% endif %}
+      {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
 </div>
 
 {% if page.endorsements %}
@@ -33,3 +68,5 @@ layout: default
     {% endfor %}
   </div>
 {% endif %}
+
+<p><a href="/portfolio">&laquo; back to projects archive</a></p>

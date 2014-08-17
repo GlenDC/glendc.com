@@ -1,0 +1,11 @@
+description:
+  In broadcast battle you have to kill the producers, in order to get their Golden LP's. Do it quick and be sure to kill the competition in the same time, in order to steal their LP's. You can play this game with 2, 3 or 4 players. The game is made with a trial version of Unity 4 Pro.
+note: This game was the official winner of the Get Online Game Jam 2013!
+video:
+  host: YouTube
+  id: PCCRvGnGZOU
+layout: project
+published: 	true
+short:     	game jam platformer snake-style action game
+title:     	Broadcast Battle
+technology: [C#, Unity]

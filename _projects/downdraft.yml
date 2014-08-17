@@ -1,0 +1,11 @@
+description:
+  The game is fully build with a custom framework fully written on top of XNA 4.0, and can only be played on the Windows 7 platform.This was a choice due to the very short deadlines and having a lot of other projects on that time as well. As a corporate spy you have to use the power of the wind to propel yourself over dangerous gaps and traps to escape the deadly factory with your stolen plans. It's a skill based game intended for hardcore Gamers. User should be aware that there is a subtle amount of violence in the game. You can play the game both with your controller as your keyboard with Azerty and Qwerty support. For information about the controls you can go to the options menu in the game.
+video:
+  host: YouTube
+  id: 26-mM2nbhJs
+layout: project
+published: 	true
+short:     	game written in C# with XNA
+title:     	DownDraft
+technology: [XNA, C#, HLSL]
+team: [SvenR]

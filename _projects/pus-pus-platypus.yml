@@ -1,0 +1,15 @@
+description:
+  Pus Pus Platypus is a game made in Unity for the Indie Speed Run 2013. I Particpated in it on a local event during my Erasmus on the University of Applied Sciences in Kajaani. It was the first game I ever made with the Occulus Rift. Using this technology was quite exciting and so I hope that you can test the game with an Occulus Rift.
+award:
+  description: This game was selected by jury member Ron Gilbert as one of the 18 Global finalists of the Indie Speed Run 2.0.
+  recommendation:
+    name:  Ron Gilbert
+    quote: A deceivingly delightful game where you blow kisses at enemies rather than bullets. I was initially perplexed by this game and then the charm of it overcame me and I played it over and over trying to blow kisses to everything/everyone I saw.
+video:
+  host: YouTube
+  id: Gx4Y8EdPfJ4
+layout: project
+published: 	true
+short:     	game jam tricky oculus rift game
+title:     	Pus Pus Platypus
+technology: [C#, Unity, Oculus Rift, GLSL]
