@@ -58,13 +58,19 @@ sub { vertical-align: sub; font-size: 0.85em; }
 
 code {
     font: 0.85em Monaco, Courier, Monospace;
+    word-wrap: break-word;
+    overflow: hidden;
+    margin: 10px 0px;
+    padding: 10px;
+    display: block;
+	background-color: #073642;
 }
 
 blockquote {
     margin: 22px 22px;
     padding: 0 20px;
     border-left: 2px solid #000000;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-style: italic;
     line-height: 1.5em;
 }
@@ -110,6 +116,13 @@ hr {
 
 .post-date {
 	float: right;
+}
+
+/*** used for imported wordpress articles ***/
+.post-note {
+	font-size: 8.5pt;
+	font-style: italic;
+	padding: 8px 0px;
 }
 
 

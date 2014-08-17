@@ -12,6 +12,12 @@ layout: default
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <article class="post">
+
+	{% for category in page.categories %}
+		{% if category == "wordpress" %}
+			<div class="post-note">Note: This article is imported from my previous website and might not be relevant or even true anymore. Enjoy it none the less.</div>
+		{% endif %}
+	{% endfor %}
 	
 	<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
 	

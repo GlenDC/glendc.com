@@ -1,6 +1,6 @@
 # Education
 
-	September 2011 - January 2014
+#### September 2011 - January 2014
 
 ### Digital Arts and Entertainment: Major Game Development
 
@@ -9,7 +9,7 @@ Learning Mathematics and Physics for Game Developers. Development in C++, C# and
 + Summer internship at Fishing Cactus, Belgium.
 + Erasmus in the University of Applied Sciences in Kajaani, Finland.
 
-	September 2009 - June 2011
+#### September 2009 - June 2011
 
 ### Communication, Web Technology and Game Development with flash
 
