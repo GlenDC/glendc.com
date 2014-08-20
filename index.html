@@ -15,8 +15,13 @@ title: home
 <meta name="gc:client-id" content="3909be813255080fef29">
 <meta name="gc:client-secret" content="0ec743c0eb48ffa083ae215f078f8f20a24a5e83">
 
-<div class="github-card" data-github="GlenDC/cgreader" data-width="245" data-height="245"></div>
-<div class="github-card" data-github="differentmatt/filbert" data-width="245" data-height="245"></div>
+{% if site.data.projects %}
+	{% for project in site.data.projects %}
+		{% if project.type == "GitHub" %}
+			<div class="github-card" data-github="{{ project.id }}" data-width="245" data-height="245"></div>
+		{% endif %}
+	{% endfor %}
+{% endif %}
 
 <!-- Articles -->
 

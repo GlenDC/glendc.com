@@ -1,23 +1,5 @@
 ---
 layout: default
-
-HannesD:
-  name: Hannes Delbeke
-  website: http://hannesdelbeke.com/
-
-JoeriV:
-  name: Joeri Vromman
-  website: http://joerivromman.com/
-
-WimVB:
-  name: Wim van Brussel
-  website: http://mindschnapps.blogspot.co.uk/
-
-SvenR:
-  name: Sven Roels
-
-MaartenM:
-  name: Maarten Maene
 ---
 
 <div class="span10">
@@ -56,10 +38,10 @@ MaartenM:
       <h2>I couldn't do this project without my team:</h2>
       <ul>
       {% for member in page.team %}
-        {% if page[member].website %}
-          <li><a href="{{ page[member].website }}">{{ page[member].name }}</a></li>
+        {% if site.data.partners[member].website %}
+          <li><a href="{{ site.data.partners[member].website }}">{{ site.data.partners[member].name }}</a></li>
         {% else %}
-          <li>{{ page[member].name }}</li>
+          <li>{{ site.data.partners[member].name }}</li>
         {% endif %}
       {% endfor %}
       </ul>
