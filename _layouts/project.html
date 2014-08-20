@@ -15,6 +15,9 @@ WimVB:
 
 SvenR:
   name: Sven Roels
+
+MaartenM:
+  name: Maarten Maene
 ---
 
 <div class="span10">
@@ -55,6 +58,21 @@ SvenR:
     </div>
   {% endif %}
 </div>
+
+{% if page.awards %}
+  <h2>Award</h2>
+  {% for award in page.awards %}
+    <div class="project-award">
+      <p>{{ award.description }}</p>
+      {% if award.recommendation %}
+        <div class="award-recommendation">
+          <p>This is what {{ award.recommendation.name }} has to say about it:</p>
+          <blockquote>{{ award.recommendation.quote }}</blockquote>
+        </div>
+      {% endif %}
+    </div>
+  {% endfor %}
+{% endif %}
 
 {% if page.endorsements %}
   <div id="endorsements" class="span16">

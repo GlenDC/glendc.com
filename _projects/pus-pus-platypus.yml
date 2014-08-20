@@ -1,6 +1,7 @@
 description:
   Pus Pus Platypus is a game made in Unity for the Indie Speed Run 2013. I Particpated in it on a local event during my Erasmus on the University of Applied Sciences in Kajaani. It was the first game I ever made with the Occulus Rift. Using this technology was quite exciting and so I hope that you can test the game with an Occulus Rift.
-award:
+awards:
+-
   description: This game was selected by jury member Ron Gilbert as one of the 18 Global finalists of the Indie Speed Run 2.0.
   recommendation:
     name:  Ron Gilbert
