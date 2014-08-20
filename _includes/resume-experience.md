@@ -12,7 +12,7 @@ Agile Game Development of a high quality mobile F2P game in C++. Working in a la
 
 Developing serious games for medical and educaional purposes. Several games were done in Unity and C#, others were crossfading with self-developed C++ libraries and another was done completly with the in-house engine of the Company.
 
-#### January 2014 - July 2014 (currently still involved, on a voluntary basis)
+#### January 2014 - July 2014
 
 ## Software Developer at [CodeCombat](http://www.codecombat.com)
 
