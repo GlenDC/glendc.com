@@ -6,3 +6,6 @@ _site
 
 config/
 Capfile
+
+assets/css
+.sass-cache

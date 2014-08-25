@@ -1,0 +1,56 @@
+.border-box
+	box-sizing: border-box
+
+.project-preview,
+.project-preview p,
+.header,
+.footer,
+.content,
+.project-left,
+.project-right
+	@extend .border-box
+
+.project-preview
+	width: 245px
+	height: 200px
+	margin: 5px 0
+	padding: 0
+	float: left
+	overflow: hidden
+	background-color: #052730
+	border: 1px solid #073642
+
+	.header,
+	.footer,
+	.content
+		padding: 2px 5px
+
+	.header,
+	.footer
+		height: 30px
+
+	.header
+		border-bottom: 1px solid #073642
+		color: #cb4b16
+		font-size: 1.2em
+
+		&:hover
+			background-color: #073642
+
+	.content
+		height: 140px
+		font-size: 1.1em
+
+	.footer
+		background-color: #073642
+
+.project-left
+	margin-right: 5px
+
+.project-right
+	margin-left: 5px
+
+.project-group-end
+	clear: both
+	height: 25px
+	width: 100%

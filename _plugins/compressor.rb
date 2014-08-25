@@ -51,6 +51,10 @@ module Jekyll
       ))
     end
  
+    def output_css(dest, content)
+      self.output_file(dest, compress_html(content))
+    end
+ 
   end
  
  
@@ -94,6 +98,8 @@ module Jekyll
       case File.extname(dest_path)
         when '.html'
           self.output_html(dest_path, File.read(path))
+        when '.css'
+          self.output_css(dest_path, File.read(path))
         ##when '.js'
         ##  self.output_js(dest_path, File.read(path))
         else

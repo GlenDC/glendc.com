@@ -13,6 +13,12 @@
   <link href="/assets/css/style.css" rel="stylesheet" />
   <link href="/assets/css/colors-dark.css" rel="stylesheet" />
 
+  {% if page.extracss %}
+    {% for css in page.extracss %}
+      <link href="/assets/css/{{ css }}.css" rel="stylesheet" />
+    {% endfor %}
+  {% endif %}
+
   <link rel="shortcut icon" href="/assets/images/lambda-icon.ico">
   
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>

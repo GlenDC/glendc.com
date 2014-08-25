@@ -1,6 +1,7 @@
 ---
 layout: default
 title: home
+extracss: [project]
 ---
 
 <!-- Description -->
@@ -9,19 +10,37 @@ title: home
 
 <!-- Projects -->
 
-<!--<h1>Active Projects</h1>
-<hr>
-
-<meta name="gc:client-id" content="3909be813255080fef29">
-<meta name="gc:client-secret" content="0ec743c0eb48ffa083ae215f078f8f20a24a5e83">
-
 {% if site.data.projects %}
+	<h1>Active Projects</h1>
+	<hr>
+
+	{% assign alignment="left" %}
 	{% for project in site.data.projects %}
-		{% if project.type == "GitHub" %}
-			<div class="github-card" data-github="{{ project.id }}" data-width="245" data-height="245"></div>
+		{% if project.type == "plain" %}
+			<div class="project-preview project-{{ alignment }}">
+				<a href="{{ project.url }}">
+					<div class="header">
+						{{ project.title }}
+					</div>
+				</a>
+				<div class="content">
+					{{ project.description }}
+				</div>
+				<div class="footer">
+					{% for language in project.languages %}
+						{{ language }}&nbsp;
+					{% endfor %}
+				</div>
+			</div>
+		{% endif %}
+		{% if alignment == "left" %}
+			{% assign alignment="right" %}
+		{% else %}
+			{% assign alignment="left" %}
 		{% endif %}
 	{% endfor %}
-{% endif %}-->
+	<div class="project-group-end"></div>
+{% endif %}
 
 <!-- Articles -->
 

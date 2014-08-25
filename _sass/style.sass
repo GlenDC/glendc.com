@@ -1,0 +1,386 @@
+/*** Reset ***/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+  margin: 0
+  padding: 0
+  border: 0
+  font-size: 100%
+  font: inherit
+  vertical-align: baseline
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+  display: block
+
+body
+  line-height: 1
+
+ol, ul
+  list-style: bullet
+
+blockquote, q
+  quotes: none
+
+blockquote
+  &:before, &:after
+    content: ''
+    content: none
+
+q
+  &:before, &:after
+    content: ''
+    content: none
+
+table
+  border-collapse: collapse
+  border-spacing: 0
+
+/*** Basics ***/
+
+body
+  font-family: Verdana, serif
+  font-size: 13px
+  line-height: 1.7
+
+a
+  text-decoration: none
+  border-bottom: 1px solid #839496
+  padding-bottom: 2px
+  &:active, &:visited
+    text-decoration: none
+    border-bottom: 1px solid #839496
+    padding-bottom: 2px
+  &:hover
+    background-color: #839496
+    color: #000000
+
+p
+  margin-bottom: 15px
+
+ul
+  padding: 0 0 18px 30px
+
+ol
+  padding: 0 0 18px 30px
+  li
+    margin-top: 10px
+    margin-bottom: 10px
+
+ul li
+  margin-top: 10px
+  margin-bottom: 10px
+
+em, i
+  font-style: italic
+
+strong, b
+  font-weight: bold
+
+small
+  font-size: 0.85em
+
+sup
+  vertical-align: super
+  font-size: 0.85em
+
+sub
+  vertical-align: sub
+  font-size: 0.85em
+
+code
+  font: 0.85em Monaco, Courier, Monospace
+  word-wrap: break-word
+  overflow: hidden
+  margin: 10px 0px
+  padding: 10px
+  display: block
+  background-color: #073642
+
+blockquote
+  margin: 22px 22px
+  padding: 0 20px
+  border-left: 2px solid #000000
+  font-size: 1.1em
+  font-style: italic
+  line-height: 1.5em
+
+acronym, abbr
+  cursor: help
+  letter-spacing: 1px
+  border-bottom: 1px dashed
+
+h1
+  font-size: 17px
+  margin: 0 0 10px 0
+
+h2
+  font-size: 15px
+  margin: 0 0 10px 0
+
+h3
+  font-size: 14px
+  margin: 0 0 10px 0
+
+hr
+  border: 0
+  height: 1px
+  background: #073642
+  margin-bottom: 20px
+  margin-top: -10px
+
+/*** Articles ***/
+
+.post
+  width: 100%
+  clear: both
+
+.post-title
+  float: left
+  width: 70%
+
+.post-date
+  float: right
+
+.post-date-month, .post-date-year
+  float: left
+  display: inline
+  width: 98%
+  padding: 1%
+  margin: 5px 0
+
+.post-date-month
+  background-color: #052730
+
+.post-date-year
+  background-color: #073642
+
+/*** used for imported wordpress articles ***/
+
+.post-note
+  font-size: 8.5pt
+  font-style: italic
+  padding: 8px 0px
+
+/*** Useful Classes ***/
+
+.block
+  display: block
+
+.clear
+  clear: both
+
+.float-left
+  float: left
+
+.float-right
+  float: right
+
+.text-left
+  text-align: left
+
+.text-right
+  text-align: right
+
+.text-center
+  text-align: center
+
+.text-justify
+  text-align: justify
+
+.img-left
+  float: left
+  margin: 4px 10px 4px 0
+
+.img-right
+  float: right
+  margin: 4px 0 4px 10px
+
+.img-middle
+  vertical-align: middle
+
+.nopadding
+  padding: 0
+
+.nounderline
+  text-decoration: underline
+
+/*** Structure ***/
+
+#page
+  width: 500px
+  margin: 0 auto
+  position: relative
+
+#header
+  width: 500px
+  margin: 40px auto 50px auto
+  h1
+    font-size: 32px
+    margin-bottom: 4px
+    a
+      border: none
+      float: left
+
+#header-blink
+  background-image: url("/assets/images/blink.gif")
+  float: left
+  margin-top: 15px
+  margin-left: 5px
+  width: 14px
+  height: 25px
+
+#subheader
+  clear: both
+  margin: 0
+  padding: 0
+  width: 100%
+
+#subheader-left
+  width: 300px
+  float: left
+
+#subheader-right
+  width: 200px
+  text-align: right
+  float: right
+  ul
+    list-style-type: none
+    margin: 0
+    padding: 0
+    width: 100%
+    li
+      display: inline
+      font-size: 0.85em
+      padding: 0 2px
+
+#footer
+  width: 500px
+  margin: 50px auto 20px auto
+  padding-top: 10px
+  font-size: 0.85em
+  border-top: 1px solid #073642
+
+#content
+  clear: both
+  width: 500px
+  margin: 0 auto
+
+#sidebar
+  position: absolute
+  text-align: right
+  width: 160px
+  top: 0
+  left: -240px
+  li
+    list-style: none
+    margin: 2px 0
+  a
+    border: none
+    font-family: "Helvetica Neue", "Helvetica", serif
+    font-size: 1.2em
+    padding: 2px 4px
+
+/*** Posts ***/
+
+article
+  margin-bottom: 20px
+  h1
+    font-size: 17px
+    margin: 0 0 10px 0
+    a
+      border: none
+      &.anchor
+        margin-left: 8px
+  img
+    display: block
+    text-align: center
+    margin: 0 auto 1em auto
+  .meta
+    padding-top: 6px
+    font-size: 0.85em
+    font-style: italic
+
+img
+  &.left
+    float: left
+    margin: 0 1em 1em 0
+  &.right
+    float: right
+    margin: 0 0 1em 1em
+  &.center
+    display: block
+    text-align: center
+    margin: 0 auto 1em auto
+
+/*** Pagination ***/
+
+.postnavigation
+  padding-top: 10px
+  text-align: center
+  font-size: 0.85em
+  .left
+    float: left
+  .right
+    float: right
+
+/*** Media Queries ***/
+@media all and (max-width: 870px)
+  #page, #header, #content, #footer
+    width: inherit
+    padding-left: 10px
+    padding-right: 10px
+  #sidebar
+    position: relative
+    text-align: left
+    width: 100%
+    left: 0
+    margin: 10px 10px 20px 10px
+    nav select.mnav
+      display: block
+      margin-bottom: 15px
+
+/*** Profile Picture ***/
+
+#avatar
+  width: 160px
+  height: 240px
+  margin: 0px 40px
+  margin-bottom: 32px
+  background-image: url("/assets/images/avatar.jpg")
+  border: 1px solid #839496
+
+/*** Icons ***/
+@font-face
+  font-family: 'solarthemeicons'
+  src: url('../fonts/solarthemeicons.eot')
+  src: url('../fonts/solarthemeicons.eot#iefix') format("embedded-opentype"), url('../fonts/solarthemeicons.woff') format("woff"), url('../fonts/solarthemeicons.ttf') format("truetype"), url('../fonts/solarthemeicons.svg#solarthemeicons') format("svg")
+  font-weight: normal
+  font-style: normal
+
+
+[class^="icon-"]:before, [class*=" icon-"]:before
+  font-family: "solarthemeicons"
+  font-style: normal
+  font-weight: normal
+  speak: none
+  display: inline-block
+  text-decoration: inherit
+  width: 1em
+  margin-right: .2em
+  text-align: center
+  font-variant: normal
+  text-transform: none
+  line-height: 1.7
+
+.icon-sun:before
+  content: '\e801'
+
+.icon-anchor
+  &:before
+    content: '\e800'
+  font-size: 65%
+
+/*** resume ***/
+
+.resume-nav-top
+  display: block
+  margin-bottom: 10px
