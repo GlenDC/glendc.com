@@ -29,6 +29,10 @@ extracss: [project]
       {% for language in project.languages %}
         <div class="language">{{ language }}</div>
       {% endfor %}
+
+      {% if project.awards %}
+        <div class="project-award"></div>
+      {% endif %}
     </div>
   </div>
 
@@ -59,6 +63,10 @@ extracss: [project]
         {% for technology in project[1].technology %}
           <div class="language">{{ technology }}</div>
         {% endfor %}
+
+        {% if project[1].awards %}
+          <div class="project-award"></div>
+        {% endif %}
       </div>
     </div>
 
