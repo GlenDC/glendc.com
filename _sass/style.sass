@@ -213,12 +213,39 @@ hr
 #header
   width: 500px
   margin: 40px auto 50px auto
-  h1
-    font-size: 32px
-    margin-bottom: 4px
-    a
-      border: none
+  
+  .primary, secondary
+    width: 100%
+    padding: 0
+
+  .primary
+    .title
+      font-size: 32px
+      color: #cb4b16
+      padding: 5px
+
+      &:visited, &:active
+        color: #cb4b16
+
+      &:hover
+        background-color: #073642
+        color: #cb4b16
+
+  .secondary
+    font-size: 0.9em
+
+    .left
       float: left
+      padding: 2px 5px
+
+    .right
+      float: right
+
+      a
+        padding: 5px
+        text-decoration: none
+        border: none
+        font-size: 0.85em
 
 #header-blink
   background-image: url("/assets/images/blink.gif")

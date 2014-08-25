@@ -28,21 +28,22 @@
 <body>
 
   <header id="header">
-    <h1><a href="/">{{ site.name }}</a><i id="header-blink"></i></h1>
+
+    <div class="primary">
+        <a href="/"><div class="title">{{ site.name }}</div></a>
+        <div class="blink"></div>
+    </div>
     
-    <div id="subheader">
-      <div id="subheader-left">{{ site.description }}</div>
-      <div id="subheader-right">
-        <ul>
-          <li><a href="http://twitter.com/{{ site.twitter_id }}">Twitter</a></li>
-          <li><a href="http://github.com/{{ site.github_id }}">GitHub</a></li>
-          <li><a href="http://uk.linkedin.com/pub/{{ site.linkedin_id }}">LinkedIn</a></li>
-          <li><a href="mailto:{{ site.email }}">Email</a></li>
-        </ul>
+    <div class="secondary">
+      <div class="left">{{ site.description }}</div>
+      <div class="right">
+        <a href="http://twitter.com/{{ site.twitter_id }}">Twitter</a>
+        <a href="http://github.com/{{ site.github_id }}">GitHub</a>
+        <a href="http://uk.linkedin.com/pub/{{ site.linkedin_id }}">LinkedIn</a>
+        <a href="mailto:{{ site.email }}">Email</a>
       </div>
     </div>
 
-    </p>
   </header>
 
   <div id="page">
