@@ -16,7 +16,7 @@ module Jekyll
         Dir['_projects/*.yml'].each do |path|
           name   = File.basename(path, '.yml')
           config = YAML.load(File.read(File.join(@base, path)))
-          projects[name] = config if config['published']
+          projects[name] = config
         end
       end
     end
@@ -30,7 +30,7 @@ module Jekyll
       @name     = "index.html"
       self.data = YAML.load(File.read(File.join(@base, path)))
 
-      self.process(@name) if self.data['published']
+      self.process(@name)
     end
   end
 
@@ -68,13 +68,11 @@ module Jekyll
     def write_project_index(site, path, name)
       project = ProjectIndex.new(site, site.source, "/portfolio/#{name}", path)
 
-      if project.data['published']
-        project.render(site.layouts, site.site_payload)
-        project.write(site.dest)
+      project.render(site.layouts, site.site_payload)
+      project.write(site.dest)
 
-        site.pages << project
-        site.static_files << project
-      end
+      site.pages << project
+      site.static_files << project
     end
   end
 end
