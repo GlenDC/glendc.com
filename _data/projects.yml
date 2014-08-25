@@ -1,25 +1,31 @@
 ---
 -
-  type: plain
+  opensource:
+    host: GitHub
   title: cgreader
   url: https://github.com/glendc/cgreader
   description: |
     Small Go package to simulate the Codingame 
     programs offline on your computer.
   languages: [Go]
+  active: true
 -
-  type: plain
+  opensource:
+    host: GitHub
   title: cgreader
   url: https://github.com/glendc/cgreader
   description: |
     Small Go package to simulate the Codingame 
     programs offline on your computer.
   languages: [Go]
+  active: true
 -
-  type: plain
+  opensource:
+    host: GitHub
   title: cgreader
   url: https://github.com/glendc/cgreader
   description: |
     Small Go package to simulate the Codingame 
     programs offline on your computer.
   languages: [Go]
+  active: false

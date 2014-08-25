@@ -8,7 +8,7 @@ extracss: [project]
 
 {% markdown description.md %}
 
-<!-- Projects -->
+<!-- Active Open source Projects -->
 
 {% if site.data.projects %}
 	<h1>Active Projects</h1>
@@ -16,11 +16,17 @@ extracss: [project]
 
 	{% assign alignment="left" %}
 	{% for project in site.data.projects %}
-		{% if project.type == "plain" %}
+		{% if project.active == true %}
 			<div class="project-preview project-{{ alignment }}">
 				<a href="{{ project.url }}">
 					<div class="header">
-						{{ project.title }}
+						<div class="header-content">
+							> {{ project.title }}
+						</div>
+					    {% if project.opensource %}
+					      <div class="header-host">@ {{ project.opensource.host }}</div>
+					      <div class="clear"></div>
+					    {% endif %}
 					</div>
 				</a>
 				<div class="content">
@@ -28,7 +34,7 @@ extracss: [project]
 				</div>
 				<div class="footer">
 					{% for language in project.languages %}
-						{{ language }}&nbsp;
+						<div class="language">{{ language }}</div>
 					{% endfor %}
 				</div>
 			</div>

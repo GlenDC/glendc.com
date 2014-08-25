@@ -6,6 +6,9 @@
 .header,
 .footer,
 .content,
+.language,
+.header-content,
+.header-host,
 .project-left,
 .project-right
 	@extend .border-box
@@ -20,14 +23,19 @@
 	background-color: #052730
 	border: 1px solid #073642
 
-	.header,
-	.footer,
-	.content
+	.header-content,
+	.content,
+	.header-host,
+	.language
 		padding: 2px 5px
 
 	.header,
-	.footer
+	.footer,
+	.header-host
 		height: 30px
+
+	.language
+		height: 25px
 
 	.header
 		border-bottom: 1px solid #073642
@@ -37,11 +45,23 @@
 		&:hover
 			background-color: #073642
 
-	.content
-		height: 140px
-		font-size: 1.1em
+	.header-content
+		float: left
+		font-weight: bold
 
-	.footer
+	.header-host
+		float: right
+		font-size: 0.9em
+		background-color: #073642
+		color: #839496
+
+	.content
+		height: 145px
+
+	.language
+		border-right: 3px solid #052730
+		float: left
+		font-size: 0.9em
 		background-color: #073642
 
 .project-left
