@@ -57,7 +57,11 @@ extracss: [project]
         </div>
       </a>
       <div class="content">
-        {{ project[1].description | truncate:175 }}
+        {% if project[1].summary %}
+          {{ project[1].summary }}
+        {% else %}
+          {{ project[1].description | truncate:175 }}
+        {% endif %}
       </div>
       <div class="footer">
         {% for technology in project[1].technology %}

@@ -1,9 +1,7 @@
 description: |
-  The game is fully written on top of XNA,&nbsp;
-  and will be released for Windows 8, Windows Phone&nbsp;
-  in the near future.There is a fully functional&nbsp;
-  world editor which will be available to the users&nbsp;
-  for editing and releasing maps.&nbsp;
+  The game is fully written on top of XNA. There is a fully functional&nbsp;
+  world editor which is available to the users&nbsp;
+  for editing and making maps.&nbsp;
   Target audience is people from 15 to 30.&nbsp;
   In the game we are create awareness about&nbsp;
   the current state of the usage of energy sources.&nbsp;
@@ -12,8 +10,9 @@ description: |
   Thanks to the world editor,&nbsp;
   a community will be able to create and&nbsp;
   share their own interpretation to the world.&nbsp;
-  For this was also an engine written&nbsp;
-  which will be released in the near future.&nbsp;
+summary: |
+  The game is fully written on top of XNA.&nbsp;
+  On top of the game, there is also an editor to make hexagon levels.
 video:
   host: YouTube
   id: IOrddOzDTYA

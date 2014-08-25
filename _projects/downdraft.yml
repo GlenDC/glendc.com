@@ -9,6 +9,10 @@ description: |
   User should be aware that there is a subtle amount of violence in the game.&nbsp;
   You can play the game both with your controller as your keyboard with Azerty and Qwerty support.&nbsp;
   For information about the controls you can go to the options menu in the game.&nbsp;
+summary: |
+  The game is fully build with a custom framework fully&nbsp;
+  written on top of XNA 4.0, and can only be played on the&nbsp;
+  Windows 7 platform.
 video:
   host: YouTube
   id: 26-mM2nbhJs

@@ -2,52 +2,50 @@
 layout: default
 ---
 
-<div class="span10">
-  <h1>{{ page.title }}</h1>
+<h1>{{ page.title }}</h1>
 
-  {% if page.technology %}
-    <tr>
-    {% for technology in page.technology %}
-      <td>{{ technology }}</td>
+{% if page.technology %}
+  <tr>
+  {% for technology in page.technology %}
+    <td>{{ technology }}</td>
+  {% endfor %}
+  </tr>
+{% endif %}
+
+{% if page.video %}
+  {% if page.video.host == "YouTube" %}
+    <iframe width="500" height="280" src="//www.youtube.com/embed/{{ page.video.id }}" frameborder="0" allowfullscreen></iframe>
+  {% endif %}
+{% endif %}
+
+<p>{{ page.description }}</p>
+
+{% if page.website %}
+  <div class="website"><a href="{{ page.website }}">{{ page.website }}</a></div>
+{% endif %}
+
+{% if page.job %}
+  <p class="project-job">I was a {{ page.job.title }} at 
+  {% if page.job.website %}
+    <a href="{{ page.job.website }}">{{ page.job.company }}</a>
+  {% else %}
+    {{ page.job.company }}
+  {% endif %}
+   during this project.</p>
+{% elsif page.team %}
+  <div class="project-team">
+    <h2>I couldn't do this project without my team:</h2>
+    <ul>
+    {% for member in page.team %}
+      {% if site.data.partners[member].website %}
+        <li><a href="{{ site.data.partners[member].website }}">{{ site.data.partners[member].name }}</a></li>
+      {% else %}
+        <li>{{ site.data.partners[member].name }}</li>
+      {% endif %}
     {% endfor %}
-    </tr>
-  {% endif %}
-
-  {% if page.video %}
-    {% if page.video.host == "YouTube" %}
-      <iframe width="500" height="280" src="//www.youtube.com/embed/{{ page.video.id }}" frameborder="0" allowfullscreen></iframe>
-    {% endif %}
-  {% endif %}
-
-  <p>{{ page.description }}</p>
-
-  {% if page.website %}
-    <div class="website"><a href="{{ page.website }}">{{ page.website }}</a></div>
-  {% endif %}
-
-  {% if page.job %}
-    <p class="project-job">I was a {{ page.job.title }} at 
-    {% if page.job.website %}
-      <a href="{{ page.job.website }}">{{ page.job.company }}</a>
-    {% else %}
-      {{ page.job.company }}
-    {% endif %}
-     during this project.</p>
-  {% elsif page.team %}
-    <div class="project-team">
-      <h2>I couldn't do this project without my team:</h2>
-      <ul>
-      {% for member in page.team %}
-        {% if site.data.partners[member].website %}
-          <li><a href="{{ site.data.partners[member].website }}">{{ site.data.partners[member].name }}</a></li>
-        {% else %}
-          <li>{{ site.data.partners[member].name }}</li>
-        {% endif %}
-      {% endfor %}
-      </ul>
-    </div>
-  {% endif %}
-</div>
+    </ul>
+  </div>
+{% endif %}
 
 {% if page.awards %}
   <h2>Awards and achievements</h2>
