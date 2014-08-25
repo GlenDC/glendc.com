@@ -11,8 +11,7 @@ extracss: [project]
 <!-- Active Open source Projects -->
 
 {% if site.data.projects %}
-	<h1>Active Projects</h1>
-	<hr>
+	<h1 class="content-title">Active Projects</h1>
 
 	{% assign alignment="left" %}
 	{% for project in site.data.projects %}
@@ -54,8 +53,7 @@ extracss: [project]
 
 <!-- Articles -->
 
-<h1>Recent Articles</h1>
-<hr>
+<h1 class="content-title">Recent Articles</h1>
 
 {% for post in paginator.posts %}
 
