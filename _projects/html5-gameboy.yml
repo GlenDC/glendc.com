@@ -4,8 +4,11 @@ description: |
 demo:
   type: HTML5
   name: gameboy
-  width: 500
-  height: 500
+  description: |
+    Control the Classical Gameboy with your keyboard or by touching.
+  width: 400
+  height: 550
+  left: 50
 layout: project
 title: HTML5 GameBoy
 technology: [HTML5, CSS, PHP, JS]

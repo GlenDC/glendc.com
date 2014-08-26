@@ -164,7 +164,6 @@
 			?>
 			
 			<footer id=website-footer>
-				<?php include 'php/footer.php' ?>
 			</footer>
 		</article>
 		

@@ -23,8 +23,17 @@ extracss: [project]
   {% endif %}
 
   {% if page.demo %}
+    <h1>Project Demo</h1>
+
+      <p>{{ page.demo.description }}</p>
+      <iframe class="html5-project" style="width: {{ page.demo.width }}px; margin-left: {{ page.demo.left }}px;" width="{{ page.demo.width }}px" height="{{ page.demo.height }}px" src="/assets/projects/{{ page.demo.name }}" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
     {% if page.demo.type == "HTML5" %}
-      <iframe width="page.demo.width" height="page.demo.height" src="/assets/projects/{{ page.demo.name }}" frameborder="0"></iframe>
+
+      <script>
+        var iframe = $(".html5-project");
+        iframe.contentWindow.focus();
+      </script>
+
     {% endif %}
   {% endif %}
 
