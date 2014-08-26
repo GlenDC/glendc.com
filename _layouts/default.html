@@ -28,7 +28,10 @@
       $(document).ready(function(){ 
         setInterval(function(){
           $("#blink").toggleClass("blink-color");
-        }, 750)
+        }, 750);
+
+        $("#content").css("display", "none");
+        $("#content").fadeIn(1000);
       });
   </script>
 
