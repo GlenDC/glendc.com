@@ -3,6 +3,23 @@ layout: default
 title: Blog
 ---
 
+<script>
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 500);
+	        return false;
+	      }
+	    }
+	  });
+	});
+</script>
+
 <div id="blog-archives">
 	{% capture tMonth %}{{ "None" }}{% endcapture %}
 	{% capture tYear %}{{ "1992" }}{% endcapture %}
@@ -14,12 +31,12 @@ title: Blog
 
 		{% if tYear != postyear %}
 			{% capture tYear %}{{ postyear }}{% endcapture %}
-			<h1 class="post-date-year">{{ tYear }}</h1>
+			<a href="#{{ tYear }}"><h1 class="post-date-year" id="{{ tYear }}">{{ tYear }}</h1></a>
 		{% endif %}
 
 		{% if tMonth != postMonth %}
 			{% capture tMonth %}{{ postMonth }}{% endcapture %}
-			<h2 class="post-date-month">{{ tMonth }}</h2>
+			<a href="#{{ tYear }}-{{ tMonth }}"><h2 class="post-date-month" id="{{ tYear }}-{{ tMonth }}">{{ tMonth }}</h2></a>
 		{% endif %}
 
 		<article class="post">
