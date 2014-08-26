@@ -4,7 +4,7 @@
 
 ## Junior Programmer at [Exient](http://www.exient.com), United Kingdom
 
-Agile Game Development of a high quality mobile F2P game in C++. Working in a large team using in-house technology across several studios.
+Agile Game Development of high quality mobile F2P games in C++. Working in large teams using and developing in-house technology across several studios.
 
 #### January 2014 - July 2014
 

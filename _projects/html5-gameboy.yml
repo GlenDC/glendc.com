@@ -7,7 +7,7 @@ demo:
   description: |
     Control the Classical Gameboy with your keyboard or by touching.
   width: 400
-  height: 550
+  height: 540
   left: 50
 layout: project
 title: HTML5 GameBoy
