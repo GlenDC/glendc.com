@@ -21,7 +21,16 @@
 
   <link rel="shortcut icon" href="/assets/images/lambda-icon.ico">
   
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+  <script>
+      $(document).ready(function(){ 
+        setInterval(function(){
+          $("#blink").toggleClass("blink-color");
+        }, 750)
+      });
+  </script>
 
 </head>
 
@@ -29,9 +38,14 @@
 
   <header id="header">
 
+    
     <div class="primary">
-        <a href="/"><div class="title">{{ site.name }}</div></a>
-        <div class="blink"></div>
+        <div class="title"><a href="/">{{ site.name }}</a></div>
+
+        <div id="blink-wrapper">
+          <div id="blink-padding"></div>
+          <div id="blink"></div>
+        </div>
     </div>
     
     <div class="secondary">

@@ -205,6 +205,9 @@ hr
 
 /*** Structure ***/
 
+.blink-color
+  background-color: #cb4b16
+
 #page
   width: 500px
   margin: 0 auto
@@ -219,20 +222,37 @@ hr
     padding: 0
 
   .primary
+
     .title
       font-size: 32px
       color: #cb4b16
-      padding: 5px
+      float: left
 
-      &:visited, &:active
-        color: #cb4b16
+      a
+        padding: 5px
 
-      &:hover
-        background-color: #073642
-        color: #cb4b16
+        &:visited, &:active
+          color: #cb4b16
+
+        &:hover
+          background-color: #073642
+          color: #cb4b16
+
+    #blink-wrapper
+      float: left
+
+      #blink-padding, #blink
+        width: 15px
+
+      #blink-padding
+        height: 12px
+
+      #blink
+        height: 30px
 
   .secondary
     font-size: 0.9em
+    clear: both
 
     .left
       float: left
