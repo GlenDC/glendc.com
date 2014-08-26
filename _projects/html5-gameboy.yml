@@ -1,0 +1,12 @@
+description: |
+  A functional clasical gameboy made in HTML5&nbsp;
+  for the second GBJam.
+demo:
+  type: HTML5
+  name: gameboy
+  width: 500
+  height: 500
+layout: project
+title: HTML5 GameBoy
+technology: [HTML5, CSS, PHP, JS]
+date: 11-2013

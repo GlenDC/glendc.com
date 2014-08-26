@@ -16,10 +16,15 @@ extracss: [project]
   </div>
   <div class="clear"></div>
 
-
   {% if page.video %}
     {% if page.video.host == "YouTube" %}
       <iframe width="500" height="280" src="//www.youtube.com/embed/{{ page.video.id }}" frameborder="0" allowfullscreen></iframe>
+    {% endif %}
+  {% endif %}
+
+  {% if page.demo %}
+    {% if page.demo.type == "HTML5" %}
+      <iframe width="page.demo.width" height="page.demo.height" src="/assets/projects/{{ page.demo.name }}" frameborder="0"></iframe>
     {% endif %}
   {% endif %}
 
