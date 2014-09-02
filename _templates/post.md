@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Title"
-date:   2014-MM-DD
-categories: category
+title:  "rTitle"
+date:   rDate
+categories: rCategory
 ---
 
 Blog content in markdown format.
