@@ -12,20 +12,18 @@
 -
   opensource:
     host: GitHub
-  title: cgreader
-  url: https://github.com/glendc/cgreader
+  title: filbert
+  url: https://github.com/differentmatt/filbert
   description: |
-    Small Go package to simulate the Codingame&nbsp;
-    programs offline on your computer.
-  languages: [Go]
+    JavaScript parser of Python.
+  languages: [JavaScript]
   active: true
 -
   opensource:
     host: GitHub
-  title: cgreader
-  url: https://github.com/glendc/cgreader
+  title: CodeCombat
+  url: https://github.com/codecombat/codecombat
   description: |
-    Small Go package to simulate the Codingame&nbsp;
-    programs offline on your computer.
-  languages: [Go]
+    Multiplayer programming game for learning how to code.
+  languages: [CoffeeScript, Bash, SASS]
   active: false
