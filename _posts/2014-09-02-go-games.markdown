@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Go Games"
+date:   2014-09-02
+categories: go gamedev inspiration
+---
+
+A couple of months ago I started learning [Go](http://golang.org), the language developed and published by _Google_. Learned it from scratch and did a couple of projects with it, including [cgreader](https://github.com/glendc/cgreader). Even though Go is originally created for server and web development, it can be used for anything.
+
+> Going to develop a game in _go_, interfacing with c/c++ technology as a proof of concept that _go_ can be used to develop games fast, in every meaning of that word.
+
+The language is easy to use and is completely aimed at being as productive as possible. It gets compiled to assembly and it does it at an incredible speed. Compiling a complete program goes as fast as executing the correct command in your terminal. It's for these reasons that the language is a real suitable candidate for game development IMHO. Often languages like Lua are now used to provide a faster iteration time and prevent compilation time. And although it's a clever solution, it is far from optimal. Lua is certainly not the most fun language to use and in the end it is still interpreted on runtime. And no, compiling Lua to some binary solution is still not the same as having a real assembly compiled program.
+
+It's for all of these reasons that I would like to start the development of a small experiment and see if it's actually possible to have a game project in go and interface it with an existing C/C++ framework to provide the necessary tech support. The first step would be just to remake a simple game in go and just directly interface it with some kind of framework that allows me to develop a 2D game. If this proof of concept works out and actually convinces me of the idea that developing games with go is fun and productive, than I can start thinking of using the knowledge (and some code) of that experiment to make a small framework to make the process of developing games in go and interfacing with c/c++ technology more swiftly.
