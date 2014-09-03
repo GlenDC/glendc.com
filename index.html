@@ -17,7 +17,7 @@ extracss: [project]
 	{% for project in site.data.projects %}
 		{% if project.active == true %}
 			<div class="project-preview project-{{ alignment }}">
-				<a href="{{ project.url }}">
+				<a href="{{ project.url }}" title="Checkout {{ project.title }} on {{ project.opensource.host }}!">
 					<div class="header">
 						<div class="header-content">
 							> {{ project.title }}
@@ -36,7 +36,12 @@ extracss: [project]
 						<div class="language">{{ language }}</div>
 					{% endfor %}
 
-					{% if project.awards %}
+					{% if project.opensource and project.opensource.host == "GitHub" %}
+						<div class="community">
+							<a href="#share"><div class="stars" title="Star on {{ project.opensource.host }}!"><p>9999</p></div></a>
+							<a href="#fork"><div class="forks" title="Fork on {{ project.opensource.host }}!"><p>9999</p></div></a>
+						</div>
+					{% else if project.awards %}
 						<div class="project-award"></div>
 					{% endif %}
 				</div>

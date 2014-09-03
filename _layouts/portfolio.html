@@ -30,9 +30,14 @@ extracss: [project]
         <div class="language">{{ language }}</div>
       {% endfor %}
 
-      {% if project.awards %}
-        <div class="project-award"></div>
-      {% endif %}
+        {% if project.opensource and project.opensource.host == "GitHub" %}
+          <div class="community">
+            <a href="#share"><div class="stars" title="Star on {{ project.opensource.host }}!"><p>9999</p></div></a>
+            <a href="#fork"><div class="forks" title="Fork on {{ project.opensource.host }}!"><p>9999</p></div></a>
+          </div>
+        {% else if project.awards %}
+          <div class="project-award"></div>
+        {% endif %}
     </div>
   </div>
 

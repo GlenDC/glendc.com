@@ -9,6 +9,9 @@
 .footer,
 .content,
 .language,
+.community,
+.stars,
+.forks,
 .header-content,
 .header-host,
 .project-left,
@@ -71,6 +74,36 @@
 		float: left
 		font-size: 0.9em
 		background-color: #073642
+
+	.community
+		float: right
+		color: #cb4b16
+
+		.stars,
+		.forks
+			width: 60px
+			padding: 5px
+			text-align: right
+			height: 100%
+			color: #cb4b16
+
+			p
+			margin-top: -5px
+
+			&:hover,
+			&:active,
+			&:visited
+				background-color: #073642
+				border-color: #073642
+
+		.stars
+			float: left
+			background: url('/assets/images/star.png') no-repeat top 8px left 2px
+
+		.forks
+			float: right
+			background: url('/assets/images/fork.png') no-repeat top 8px left 8px
+
 
 	.project-award
 		float: right
