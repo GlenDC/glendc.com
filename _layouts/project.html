@@ -17,9 +17,7 @@ extracss: [project]
   <div class="clear"></div>
 
   {% if page.video %}
-    {% if page.video.host == "YouTube" %}
-      <iframe width="500" height="280" src="//www.youtube.com/embed/{{ page.video.id }}" frameborder="0" allowfullscreen></iframe>
-    {% endif %}
+    {% video page.video.host page.video.id 500 280 %}
   {% endif %}
 
   {% if page.demo %}
