@@ -17,7 +17,7 @@
   description: |
     JavaScript parser of Python.
   languages: [JavaScript]
-  active: true
+  active: false
 -
   opensource:
     host: GitHub

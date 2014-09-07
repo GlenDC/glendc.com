@@ -13,10 +13,9 @@ extracss: [project]
 {% if site.data.projects %}
 	<h1 class="content-title">Active Projects</h1>
 
-	{% assign alignment="left" %}
 	{% for project in site.data.projects %}
 		{% if project.active == true %}
-			<div class="project-preview project-{{ alignment }}">
+			<div class="project-preview">
 				<a href="{{ project.url }}" title="Checkout {{ project.title }} on {{ project.opensource.host }}!">
 					<div class="header">
 						<div class="header-content">
@@ -46,11 +45,6 @@ extracss: [project]
 					{% endif %}
 				</div>
 			</div>
-		{% endif %}
-		{% if alignment == "left" %}
-			{% assign alignment="right" %}
-		{% else %}
-			{% assign alignment="left" %}
 		{% endif %}
 	{% endfor %}
 	<div class="project-group-end"></div>
