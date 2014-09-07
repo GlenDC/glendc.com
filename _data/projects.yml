@@ -1,26 +1,25 @@
 ---
 -
   host: GitHub
-  id: glendc/cgreader
-  title: cgreader
-  description: |
-    Small Go package to simulate the Codingame&nbsp;
-    programs offline on your computer.
+  id: GlenDC/cgreader
   languages: Go
   active: true
+  show_stats: true
 -
   host: GitHub
-  id: differentmatt/filbert
-  title: filbert
-  description: |
-    JavaScript parser of Python.
+  id: GlenDC/filbert
   languages: JavaScript
   active: false
+  show_stats: false
 -
   host: GitHub
   id: codecombat/codecombat
-  title: CodeCombat
-  description: |
-    Multiplayer programming game for learning how to code.
-  languages: CoffeeScript, Bash, SASS
+  languages:  CoffeeScript, CSS, JavaScript
   active: false
+  show_stats: false
+-
+  host: GitHub
+  id: GlenDC/GBJam2
+  languages:  JavaScript, CSS, PHP
+  active: false
+  show_stats: false
