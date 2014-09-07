@@ -1,29 +1,26 @@
 ---
 -
-  opensource:
-    host: GitHub
+  host: GitHub
+  id: glendc/cgreader
   title: cgreader
-  url: https://github.com/glendc/cgreader
   description: |
     Small Go package to simulate the Codingame&nbsp;
     programs offline on your computer.
-  languages: [Go]
+  languages: Go
   active: true
 -
-  opensource:
-    host: GitHub
+  host: GitHub
+  id: differentmatt/filbert
   title: filbert
-  url: https://github.com/differentmatt/filbert
   description: |
     JavaScript parser of Python.
-  languages: [JavaScript]
+  languages: JavaScript
   active: false
 -
-  opensource:
-    host: GitHub
+  host: GitHub
+  id: codecombat/codecombat
   title: CodeCombat
-  url: https://github.com/codecombat/codecombat
   description: |
     Multiplayer programming game for learning how to code.
-  languages: [CoffeeScript, Bash, SASS]
+  languages: CoffeeScript, Bash, SASS
   active: false
