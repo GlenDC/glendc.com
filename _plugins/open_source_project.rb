@@ -37,8 +37,10 @@ module Jekyll
 			_languages = look_up(context, arguments[3])
 			_active = look_up(context, arguments[4])
 			_showStats = look_up(context, arguments[5])
+			_name = look_up(context, arguments[6])
+			_website = look_up(context, arguments[7])
 
-			_title = nil
+			_title = _name
 			_description = nil
 			_forks = '?'
 			_stars = '?'
@@ -52,7 +54,9 @@ module Jekyll
 				end
 
 				if _host == "GitHub"
-					_url = "https://github.com/#{_id}"
+					if _website == nil
+						_website = "https://github.com/#{_id}"
+					end
 
 					_client = Octokit::Client.new(:netrc => true, auto_traversal: true)
 					_user = _client.user
@@ -64,7 +68,9 @@ module Jekyll
 					if str_safe_compare(_gitInfo[0], "glendc")
 						_client.repos.each do |repo|
 	    					if str_safe_compare(repo.name, _repoName)
-	    						_title = repo.name if repo.name
+	    						if _title == nil
+	    							_title = repo.name if repo.name
+	    						end
 	    						_description = repo.description if repo.description
 	    						_forks = repo.forks_count if repo.forks_count
 	    						_stars = repo.stargazers_count if repo.stargazers_count
@@ -73,7 +79,9 @@ module Jekyll
 					else
 						repo = Octokit.repo "#{_id}"
 						if repo
-							_title = repo.name if repo.name
+    						if _title == nil
+    							_title = repo.name if repo.name
+    						end
 	    					_description = repo.description if repo.description
 	    					_forks = repo.forks_count if repo.forks_count
 	    					_stars = repo.stargazers_count if repo.stargazers_count
@@ -85,7 +93,7 @@ module Jekyll
 				end
 				
 				renderContent = "<div class=\"#{_class}\">" <<
-					"<a href=\"#{_url}\" title=\"Checkout #{_title} on #{_host}!\">" <<
+					"<a href=\"#{_website}\" title=\"Checkout #{_title} on #{_host}!\">" <<
 					"<div class=\"header\">" <<
 					"<div class=\"header-content\">" <<
 					"> #{_title}" <<
@@ -103,8 +111,8 @@ module Jekyll
 
 				if _host == "GitHub" and _showStats
 					renderContent << "<div class=\"community\">" <<
-						"<a href=\"#{_url}\"><div class=\"stars\" title=\"Star on #{_host}!\"><p>#{_stars}</p></div></a>" <<
-						"<a href=\"#{_url}\"><div class=\"forks\" title=\"Fork on #{_host}!\"><p>#{_forks}</p></div></a>" <<
+						"<a href=\"#{_website}\"><div class=\"stars\" title=\"Star on #{_host}!\"><p>#{_stars}</p></div></a>" <<
+						"<a href=\"#{_website}\"><div class=\"forks\" title=\"Fork on #{_host}!\"><p>#{_forks}</p></div></a>" <<
 						"</div>"
 				end
 				

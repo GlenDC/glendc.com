@@ -14,7 +14,7 @@ extracss: [project]
 	<h1 class="content-title">Active Projects</h1>
 
 	{% for project in site.data.projects %}
-		{% open_source_project preview project.host project.id project.languages project.active true %} <!-- force show stats -->
+		{% open_source_project preview project.host project.id project.languages project.active true project.name project.website %} <!-- force show stats -->
 	{% endfor %}
 	<div class="project-group-end"></div>
 {% endif %}

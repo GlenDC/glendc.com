@@ -23,9 +23,11 @@
   languages: C++11, OpenGL
   active: false
   show_stats: true
+  name: StarEngine
 -
   host: GitHub
   id: GlenDC/GBJam2
   languages: JavaScript, CSS, PHP
   active: false
   show_stats: false
+  name: HTML5 GameBoy

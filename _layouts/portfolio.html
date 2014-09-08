@@ -10,7 +10,7 @@ extracss: [project]
 
 {% for project in site.data.projects %}
 
-  {% open_source_project alignment project.host project.id project.languages project.active project.show_stats %}
+  {% open_source_project alignment project.host project.id project.languages project.active project.show_stats project.name project.website %}
 
   {% if alignment == "left" %}
     {% assign alignment="right" %}
