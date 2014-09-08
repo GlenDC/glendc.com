@@ -50,7 +50,7 @@ module Jekyll
 				if _host == "GitHub"
 					_url = "https://github.com/#{_id}"
 
-					_client = Octokit::Client.new(:netrc => true)
+					_client = Octokit::Client.new(:netrc => true, auto_traversal: true)
 					_user = _client.user
 					_user.login
 

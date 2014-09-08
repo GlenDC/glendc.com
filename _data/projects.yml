@@ -14,12 +14,12 @@
 -
   host: GitHub
   id: codecombat/codecombat
-  languages:  CoffeeScript, CSS, JavaScript
+  languages: CoffeeScript, CSS, JavaScript
   active: false
   show_stats: false
 -
   host: GitHub
   id: GlenDC/GBJam2
-  languages:  JavaScript, CSS, PHP
+  languages: JavaScript, CSS, PHP
   active: false
   show_stats: false
