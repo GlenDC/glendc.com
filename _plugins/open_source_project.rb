@@ -22,6 +22,10 @@ module Jekyll
 			lookup
 		end
 
+		def str_safe_compare(a, b)
+			return a.downcase == b.downcase
+		end
+
 		def render(context)
 			renderContent = ""
 			
@@ -57,14 +61,24 @@ module Jekyll
 					_gitInfo = _id.split('/')
 					_repoName = _gitInfo[1]
 
-					_client.repos.each do |repo|
-    					if repo.name == _repoName
-    						_title = repo.name if repo.name
-    						_description = repo.description if repo.description
-    						_forks = repo.forks_count if repo.forks_count
-    						_stars = repo.stargazers_count if repo.stargazers_count
-    					end
-    				end
+					if str_safe_compare(_gitInfo[0], "glendc")
+						_client.repos.each do |repo|
+	    					if str_safe_compare(repo.name, _repoName)
+	    						_title = repo.name if repo.name
+	    						_description = repo.description if repo.description
+	    						_forks = repo.forks_count if repo.forks_count
+	    						_stars = repo.stargazers_count if repo.stargazers_count
+	    					end
+	    				end
+					else
+						repo = Octokit.repo "#{_id}"
+						if repo
+							_title = repo.name if repo.name
+	    					_description = repo.description if repo.description
+	    					_forks = repo.forks_count if repo.forks_count
+	    					_stars = repo.stargazers_count if repo.stargazers_count
+						end
+					end
 
     				# todo: get this from Octokit if I ever figure out how...
     				_languages = _languages.split(',')

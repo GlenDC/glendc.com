@@ -19,6 +19,12 @@
   show_stats: false
 -
   host: GitHub
+  id: StarEngine/engine
+  languages: C++11, OpenGL
+  active: false
+  show_stats: true
+-
+  host: GitHub
   id: GlenDC/GBJam2
   languages: JavaScript, CSS, PHP
   active: false
