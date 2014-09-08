@@ -7,10 +7,10 @@
   show_stats: true
 -
   host: GitHub
-  id: GlenDC/filbert
+  id: differentmatt/filbert
   languages: JavaScript
   active: false
-  show_stats: false
+  show_stats: true
 -
   host: GitHub
   id: codecombat/codecombat
@@ -30,4 +30,4 @@
   languages: JavaScript, CSS, PHP
   active: false
   show_stats: false
-  name: HTML5 GameBoy
+  name: Web GameBoy

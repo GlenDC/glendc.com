@@ -77,7 +77,7 @@ module Jekyll
 	    					end
 	    				end
 					else
-						repo = Octokit.repo "#{_id}"
+						repo = _client.repo "#{_id}"
 						if repo
     						if _title == nil
     							_title = repo.name if repo.name
