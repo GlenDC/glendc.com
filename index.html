@@ -31,7 +31,7 @@ extracss: [project]
 
 			{{ post.content | strip_html | truncate:256 }}
 			{% if post.content | size > 256 %}
-			    <a href="{{ post.url }}" rel=\"nofollow\" class=\"read-more\" title="Click here to read: {{ post.title }}">read more &raquo;</a>
+			    <a href="{{ post.url }}" rel="nofollow" class="read-more" title="Click here to read: {{ post.title }}">read more &raquo;</a>
 			{% endif %}
 
 		</div>

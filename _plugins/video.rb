@@ -30,7 +30,7 @@ module Jekyll
 			height = arguments[3]
 
 			if host == "YouTube"
-				"<iframe width=\"#{width}\" height=\"#{height}\" src=\"//www.youtube.com/embed/#{id}\" frameborder=\"0\" allowfullscreen></iframe>"
+				"<iframe width=\"#{width}\" height=\"#{height}\" src=\"//www.youtube.com/embed/#{id}\" allowfullscreen></iframe>"
 			else
 				"Error: '#{host}' is an unknown video host!"
 			end
