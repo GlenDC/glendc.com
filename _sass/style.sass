@@ -218,7 +218,10 @@ hr
   width: 500px
   margin: 15px auto 40px auto
   
-  .primary, secondary
+  .secondary, .secondary-mobile
+    width: 100%
+
+  .primary
     width: 100%
     padding: 0
     margin-left: -5px
@@ -254,7 +257,7 @@ hr
       #blink
         height: 30px
 
-  .secondary
+  .secondary, .secondary-mobile
     font-size: 0.9em
     clear: both
 
@@ -265,11 +268,16 @@ hr
     .right
       float: right
 
-      a
-        padding: 5px
-        text-decoration: none
-        border: none
-        font-size: 0.85em
+  .secondary
+    a
+      padding: 5px
+      text-decoration: none
+      border: none
+      font-size: 0.85em
+
+  .secondary-mobile
+    height: 35px
+    margin-bottom: 10px
 
 #header-blink
   background-image: url("/assets/images/blink.gif")
@@ -373,20 +381,41 @@ img
     float: right
 
 /*** Media Queries ***/
+@media (min-width: 870px)
+  .secondary-mobile
+    display: none
+
 @media all and (max-width: 870px)
   #page, #header, #content, #footer
     width: inherit
     padding-left: 10px
     padding-right: 10px
-  #sidebar
-    position: relative
-    text-align: left
-    width: 100%
-    left: 0
-    margin: 10px 10px 20px 10px
-    nav select.mnav
-      display: block
-      margin-bottom: 15px
+  #sidebar, .secondary
+    display: none
+  #header
+    margin: 20px auto 10px auto
+  .secondary-mobile
+    display: block
+
+@media all and (max-width: 399px)
+  #title-desktop
+    display: none
+  #title-mobile
+    display: inline
+  #footer-desktop
+    display: none
+  #footer-mobile
+    display: inline
+
+@media (min-width: 400px)
+  #title-desktop
+    display: inline
+  #title-mobile
+    display: none
+  #footer-desktop
+    display: inline
+  #footer-mobile
+    display: none
 
 /*** Profile Picture ***/
 
