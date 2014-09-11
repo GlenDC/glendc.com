@@ -1,6 +1,10 @@
 #!/bin/bash
 
-# Printable CV Generation
+# Go to website root
+
+cd $WEBSITE
+
+# Generate CV
 
 file_resume=resume.md
 include_dir=_includes
@@ -17,3 +21,15 @@ sed 's/[\t]//g' $include_dir/resume-education.md >> $file_resume
 gimli -outputdir files/
 
 rm -f $file_resume
+
+# generate new css
+
+sass --watch _sass:assets/css&
+
+# close sass
+
+sleep 30 && pkill -f sass
+
+# build HTML Content
+
+jekyll build
