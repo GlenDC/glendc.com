@@ -12,6 +12,7 @@
 
   <link href="/assets/css/style.css" rel="stylesheet" />
   <link href="/assets/css/colors-dark.css" rel="stylesheet" />
+  <link href="/assets/css/responsive-menu.css" rel="stylesheet" />
 
   {% if page.extracss %}
     {% for css in page.extracss %}
@@ -20,9 +21,9 @@
   {% endif %}
 
   <link rel="shortcut icon" href="/assets/images/lambda-icon.ico">
-  
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+  <script src="/assets/js/jquery-min.js"></script>
+  <script src="/assets/js/jquery-ui-min.js"></script>
 
   <script>
       $(document).ready(function(){ 
@@ -35,6 +36,21 @@
 
         $("#footer").css("display", "none");
         $("#footer").fadeIn(1000);
+
+        /*responsive menu logic:*/
+
+        $(".rmm").find(".rmm-main-list").stop().hide(0);
+
+        $(".rmm-toggled-controls").click(function(){
+          if ($(this).is(".rmm-closed")) {
+            $(".rmm").find(".rmm-main-list").stop().show(300);
+            $(this).removeClass("rmm-closed");
+          } else {
+            $(".rmm").find(".rmm-main-list").stop().hide(300);
+            $(this).addClass("rmm-closed");
+          }
+        });
+
       });
   </script>
 
@@ -44,7 +60,6 @@
 
   <header id="header">
 
-    
     <div class="primary">
         <div class="title"><a href="/" id="title-desktop">{{ site.name }}</a><a href="/" id="title-mobile">{{ site.nameShort }}</a></div>
 
@@ -65,6 +80,29 @@
     </div>
 
     <div class="secondary-mobile">
+      <div class="rmm">
+        <div class='rmm-toggled-controls rmm-closed'>
+          <div class='rmm-button'>
+              <span>&nbsp;</span>
+              <span>&nbsp;</span>
+              <span>&nbsp;</span>
+          </div>
+          <div class='rmm-toggled-title'>Menu Navigation</div>
+        </div>
+        <ul class="rmm-main-list">
+          <li><a href="/">Home</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/portfolio">Portfolio</a></li>
+          <li><a href="/resume">R&eacute;sum&eacute;</a></li>
+          <li><a href="/feed.xml">RSS Feed</a></li>
+        </ul>
+        <ul class="rmm-main-list">
+          <li><a href="http://twitter.com/{{ site.twitter_id }}">Twitter</a></li>
+          <li><a href="http://github.com/{{ site.github_id }}">GitHub</a></li>
+          <li><a href="http://uk.linkedin.com/pub/{{ site.linkedin_id }}">LinkedIn</a></li>
+          <li><a href="mailto:{{ site.email }}">Email</a></li>
+        </ul>
+      </div>
 
     </div>
 
