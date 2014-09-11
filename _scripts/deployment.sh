@@ -4,6 +4,10 @@
 
 cd $WEBSITE
 
+# Get latest changes
+
+git pull origin HEAD
+
 # Generate CV
 
 file_resume=resume.md
