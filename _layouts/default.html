@@ -41,20 +41,29 @@
 
         $(".rmm").find(".rmm-main-list").stop().hide(0);
 
+        function hideMobileMenu() {
+          $(".rmm").find(".rmm-main-list").stop().hide(200);
+          $(".rmm-toggled-controls").addClass("rmm-closed");
+          $("header").removeClass("mobile-header-opened");
+        }
+
+        function showMobileMenu() {
+          $(".rmm").find(".rmm-main-list").stop().show(200);
+          $(".rmm-toggled-controls").removeClass("rmm-closed");
+          $("header").addClass("mobile-header-opened");
+        }
+
         $(".rmm-toggled-controls").click(function(){
           if ($(this).is(".rmm-closed")) {
-            $(".rmm").find(".rmm-main-list").stop().show(300);
-            $(this).removeClass("rmm-closed");
+            showMobileMenu();
           } else {
-            $(".rmm").find(".rmm-main-list").stop().hide(300);
-            $(this).addClass("rmm-closed");
+            hideMobileMenu();
           }
         });
 
         $("#page").click(function(){
           if ($(".rmm-toggled-controls").not(".rmm-closed")) {
-            $(".rmm").find(".rmm-main-list").stop().hide(300);
-            $(".rmm-toggled-controls").addClass("rmm-closed");
+            hideMobileMenu();
           }
         });
 
