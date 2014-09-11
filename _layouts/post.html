@@ -13,8 +13,9 @@ layout: default
  
  <script>
       $(document).ready(function(){ 
-        $("#social").css("display", "none");
-  		$("#social").delay(3000).fadeIn(1000);
+      	$social = $("#social");
+        $social.css({opacity: 0});
+  		$social.delay(2000).fadeTo(2000, 1);
       });
   </script>
 
