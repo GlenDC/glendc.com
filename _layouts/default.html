@@ -42,15 +42,20 @@
         $(".rmm").find(".rmm-main-list").stop().hide(0);
 
         function hideMobileMenu() {
-          $(".rmm").find(".rmm-main-list").stop().hide(200);
           $(".rmm-toggled-controls").addClass("rmm-closed");
           $("header").removeClass("mobile-header-opened");
+
+          $rmmMainList = $(".rmm").find(".rmm-main-list");
+          $rmmMainList.stop().fadeTo(250, 0).delay(200).hide(200);
         }
 
         function showMobileMenu() {
-          $(".rmm").find(".rmm-main-list").stop().show(200);
           $(".rmm-toggled-controls").removeClass("rmm-closed");
           $("header").addClass("mobile-header-opened");
+
+          $rmmMainList = $(".rmm").find(".rmm-main-list");
+          $rmmMainList.css({opacity: 0});
+          $rmmMainList.stop().show(300).delay(250).fadeTo(300, 1);
         }
 
         $(".rmm-toggled-controls").click(function(){
