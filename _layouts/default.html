@@ -51,6 +51,13 @@
           }
         });
 
+        $("#page").click(function(){
+          if ($(".rmm-toggled-controls").not(".rmm-closed")) {
+            $(".rmm").find(".rmm-main-list").stop().hide(300);
+            $(".rmm-toggled-controls").addClass("rmm-closed");
+          }
+        });
+
       });
   </script>
 
