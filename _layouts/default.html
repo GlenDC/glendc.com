@@ -67,7 +67,8 @@
         });
 
         $("#page").click(function(){
-          if ($(".rmm-toggled-controls").not(".rmm-closed")) {
+          if ($(".rmm-toggled-controls").is(".rmm-closed")) {
+          } else {
             hideMobileMenu();
           }
         });
