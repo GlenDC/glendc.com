@@ -4,18 +4,26 @@
 
 cd $WEBSITE
 
-# Get latest changes
+while true
+do
 
-git pull origin HEAD
+	# Get latest changes
 
-# generate new css
+	git pull origin HEAD
 
-sass --watch _sass:assets/css&
+	# generate new css
 
-# close sass
+	sass --watch _sass:assets/css&
 
-sleep 30 && pkill -f sass
+	# close sass
 
-# build HTML Content
+	sleep 30 && pkill -f sass
 
-sleep 10 && jekyll build
+	# build HTML Content
+
+	sleep 10 && jekyll build
+
+	# wait for 15 minutes
+
+	sleep 15m
+done
