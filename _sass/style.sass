@@ -138,7 +138,7 @@ hr
   float: left
   width: 70%
 
-.post-date
+.post-date, .post-date-mobile
   float: right
 
 .post-date-month, .post-date-year
@@ -393,17 +393,19 @@ img
 @media (min-width: 901px)
   .secondary-mobile
     display: none
+  .post-date-mobile
+    display: none
 
 @media all and (max-width: 900px)
   #page, #header, #content, #footer
     width: inherit
     padding-left: 10px
     padding-right: 10px
-  #sidebar, .secondary
+  #sidebar, .secondary, .post-date
     display: none
   #header
     margin: 20px auto 10px auto
-  .secondary-mobile
+  .secondary-mobile, .post-date-mobile
     display: block
 
 @media all and (max-width: 399px)
