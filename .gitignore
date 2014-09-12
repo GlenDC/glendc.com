@@ -2,8 +2,6 @@ _site
 
 *.lock
 
-*.pdf
-
 config/
 Capfile
 
