@@ -22,9 +22,9 @@ cat $include_dir/resume-software.md >> $file_resume
 cat $include_dir/resume-hackatons.md >> $file_resume
 sed 's/[\t]//g' $include_dir/resume-education.md >> $file_resume
 
-gimli -outputdir files/
+gimli -outputdir files/ && rm -f $file_resume
 
-rm -f $file_resume
+sleep 10
 
 # generate new css
 
@@ -36,4 +36,4 @@ sleep 30 && pkill -f sass
 
 # build HTML Content
 
-jekyll build
+sleep 10 && jekyll build
