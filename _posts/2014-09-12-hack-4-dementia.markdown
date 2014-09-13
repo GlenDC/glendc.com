@@ -2,7 +2,7 @@
 layout: post
 title:  "Hacking For Dementia"
 date:   2014-09-12
-categories: hackaton development 
+categories: hackathon development 
 ---
 
 Another weekend, another hackathon! This weekend I'll head over to London to participate in [the DementiaHack event](http://hackernest.com/dementiahack/). I have no clue what to expect, but I'm sure it will be fun and will share more about it this weekend.
