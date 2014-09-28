@@ -11,7 +11,7 @@ download:
   description: You can download the game at OculusVR Share.
   downloads:
   -
-    description: all major platforms
+    description: Windows
     url: https://share.oculusvr.com/app/pus-pus-platypus
 awards:
 -
