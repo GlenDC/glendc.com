@@ -41,6 +41,28 @@ extracss: [project]
     <div class="website"><a href="{{ page.website }}">{{ page.website }}</a></div>
   {% endif %}
 
+  {% if page.download %}
+    <h2>Download:</h2>
+    <p>{{ page.download.description }}</p>
+    <p>
+      Download it for
+      {% if page.download.downloads.size == 1 %}
+        &nbsp;<a href="{{ page.download.downloads[0].url }}">{{ page.download.downloads[0].description }}</a>.
+      {% else %}
+        {% for downloads in page.download.downloads %}
+          &nbsp;<a href="{{ downloads.url }}">{{ downloads.description }}</a>
+          {% if forloop.rindex == 1 %}
+            &nbsp;and
+          {% elsif forloop.last %}
+            .
+          {% else %}
+            ,
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    </p>
+  {% endif %}
+
   {% if page.job %}
     <p class="project-job">I was a {{ page.job.title }} at 
     {% if page.job.website %}

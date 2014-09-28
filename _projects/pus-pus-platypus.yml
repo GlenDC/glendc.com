@@ -7,6 +7,12 @@ description: |
 summary: |
   Pus Pus Platypus is a game made in Unity for the Indie Speed Run 2013.&nbsp;
   It was the first game I ever made with the Occulus Rift.
+download:
+  description: You can download the game at OculusVR Share.
+  downloads:
+  -
+    description: all major platforms
+    url: https://share.oculusvr.com/app/pus-pus-platypus
 awards:
 -
   description: |
