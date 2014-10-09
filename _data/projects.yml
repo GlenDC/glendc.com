@@ -25,3 +25,10 @@
   active: false
   show_stats: false
   name: Web GameBoy
+-
+  host: GitHub
+  id: GlenDC/hjson-c
+  languages: C
+  active: true
+  show_stats: true
+  name: Human JSON
