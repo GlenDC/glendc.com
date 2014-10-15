@@ -1,0 +1,27 @@
+description: |
+  Angry Birds and Transformers collide in this action-packed,&nbsp;
+  3D shoot ‘em up adventure! The EggSpark has transformed the eggs&nbsp;
+  into crazed robots who are destroying Piggy Island, but who can stop them?!&nbsp;
+  Autobirds, ROLL OUT!
+summary: |
+  Angry Birds and Transformers collide in this action-packed,&nbsp;
+  3D shoot ‘em up adventure!
+video:
+  host: YouTube
+  id: ejZmRyraq2g
+layout: project
+title: Angry Birds Transformers
+technology: [C++, ...]
+website: http://transformers.angrybirds.com/
+job:
+  title: Programmer
+  website: http://www.exient.com/
+  company: Exient
+download:
+  description: The game is free, with in-app purchases.
+  downloads:
+  -
+    description: iOS 7+
+    url: http://rov.io/angrybirdstransformers
+featured: true
+date: 10-2014

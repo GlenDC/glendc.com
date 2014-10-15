@@ -64,9 +64,10 @@ extracss: [project]
   {% endif %}
 
   {% if page.job %}
+    <h2>Position:</h2>
     <p class="project-job">I was a {{ page.job.title }} at 
     {% if page.job.website %}
-      <a href="{{ page.job.website }}">{{ page.job.company }}</a>
+      &nbsp;<a href="{{ page.job.website }}">{{ page.job.company }}</a>&nbsp;
     {% else %}
       {{ page.job.company }}
     {% endif %}

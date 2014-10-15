@@ -11,6 +11,7 @@
 .footer,
 .content,
 .language,
+.download,
 .community,
 .stars,
 .forks,
@@ -50,7 +51,8 @@
 	.header-content,
 	.content,
 	.header-host,
-	.language
+	.language,
+	.download
 		padding: 2px 5px
 
 	.header,
@@ -58,7 +60,8 @@
 	.header-host
 		height: 30px
 
-	.language
+	.language,
+	.download
 		height: 25px
 
 	.header
@@ -82,11 +85,18 @@
 	.content
 		font-size: 0.9em
 
-	.language
-		border-right: 3px solid #052730
-		float: left
+	.language,
+	.download
 		font-size: 0.9em
 		background-color: #073642
+
+	.language
+		float: left
+		border-right: 3px solid #052730
+
+	.download
+		float: right
+		border-left: 3px solid #052730
 
 	.community
 		float: right
@@ -136,6 +146,11 @@
 	height: 25px
 	width: 100%
 
+.project-featured
+	width: 100%
+
+	.header
+		color: #cb4b16
 
 /*** Project Page ***/
 
@@ -164,6 +179,9 @@
 			font-size: 1.1em
 			background-color: #073642
 
+	.website
+		margin-bottom: 15px
+
 .html5-project
 	border: 5px solid #839496
 	margin-top: 10px
@@ -171,7 +189,7 @@
 	overflow: hidden
 
 @media all and (max-width: 900px)
-	.project-portfolio
+	.project-portfolio,
 	.project-preview
 		width: 100%
 		height: 160px
@@ -184,7 +202,7 @@
 		margin-left: 0px
 
 @media all and (max-width: 325px)
-	.project-portfolio
+	.project-portfolio,
 	.project-preview
 		.content
 			font-size: 0.8em

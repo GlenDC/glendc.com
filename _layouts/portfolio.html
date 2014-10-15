@@ -5,6 +5,47 @@ extracss: [project]
 ---
 
 {% assign alignment="left" %}
+
+<!-- Featured Projects -->
+
+{% for project in page.projects %}
+
+    {% if project[1].featured %}
+
+      <div class="project-portfolio project-featured">
+        <a href="/portfolio/{{ project[0] }}">
+          <div class="header">
+            <div class="header-content">
+              > {{ project[1].title }}
+            </div>
+
+            {% if project[1].job %}
+              <div class="header-host"><a href="{{ project[1].job.website }}">{{ project[1].job.company }}</a></div>
+            {% endif %}
+
+          </div>
+        </a>
+        <div class="content">
+          {{ project[1].description }}
+        </div>
+        <div class="footer">
+          {% for technology in project[1].technology %}
+            <div class="language">{{ technology }}</div>
+          {% endfor %}
+
+          {% if project[1].download %}
+            {% for download in project[1].download.downloads %}
+              <div class="download"><a href="{{ download.url }}">{{ download.description }}</a></div>
+            {% endfor %}
+            <div class="download">Download:</div>
+          {% endif %}
+
+        </div>
+      </div>
+
+  {% endif %}
+
+{% endfor %}
   
 <!-- Open Source Projects -->
 
@@ -24,37 +65,41 @@ extracss: [project]
 
 {% for project in page.projects %}
 
-    <div class="project-portfolio project-{{ alignment }}">
-      <a href="/portfolio/{{ project[0] }}">
-        <div class="header">
-          <div class="header-content">
-            > {{ project[1].title }}
+    {% unless project[1].featured %}
+
+      <div class="project-portfolio project-{{ alignment }}">
+        <a href="/portfolio/{{ project[0] }}">
+          <div class="header">
+            <div class="header-content">
+              > {{ project[1].title }}
+            </div>
           </div>
+        </a>
+        <div class="content">
+          {% if project[1].summary %}
+            {{ project[1].summary }}
+          {% else %}
+            {{ project[1].description | truncate:175 }}
+          {% endif %}
         </div>
-      </a>
-      <div class="content">
-        {% if project[1].summary %}
-          {{ project[1].summary }}
-        {% else %}
-          {{ project[1].description | truncate:175 }}
-        {% endif %}
-      </div>
-      <div class="footer">
-        {% for technology in project[1].technology %}
-          <div class="language">{{ technology }}</div>
-        {% endfor %}
+        <div class="footer">
+          {% for technology in project[1].technology %}
+            <div class="language">{{ technology }}</div>
+          {% endfor %}
 
-        {% if project[1].awards %}
-          <div class="project-award"></div>
-        {% endif %}
+          {% if project[1].awards %}
+            <div class="project-award"></div>
+          {% endif %}
+        </div>
       </div>
-    </div>
 
-  {% if alignment == "left" %}
-    {% assign alignment="right" %}
-  {% else %}
-    {% assign alignment="left" %}
-  {% endif %}
+    {% if alignment == "left" %}
+      {% assign alignment="right" %}
+    {% else %}
+      {% assign alignment="left" %}
+    {% endif %}
+
+  {% endunless %}
 
 {% endfor %}
 
