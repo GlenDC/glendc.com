@@ -10,7 +10,7 @@ Agile Game Development of high quality mobile F2P games in C++. Working in large
 
 ## Junior Programmer at [Fishing Cactus](http://www.fishingcactus.com), Belgium
 
-Developing serious games for medical and educaional purposes. Several games were done in Unity and C#, others were crossfading with self-developed C++ libraries and another was done completly with the in-house engine of the Company.
+Developing serious games for medical and educaional purposes. Several games were done in Unity and C#, others were crossfading with self-developed C++ libraries and another was done completly with the in-house engine of the Company. Development of Angry Birds Transformers on iOS and Android.
 
 #### January 2014 - July 2014
 
