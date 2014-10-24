@@ -15,4 +15,4 @@ With a game this popular and successful it is exceptional that even the true har
 
 > _["Angry Birds Transformers review – a warmer, crafted homage than the films"](http://www.theguardian.com/technology/2014/oct/21/angry-birds-transformers-review-rovio)_ - theguardian
 
-So here we are, the day after the company launch party, in between the iOS and the Android launch. A party I'll never forget, at least the parts I still remember. I'm proud to be part of the team that made this party and happy to celebrate with them on am anazing and well organized party! One can only hope that this is only the beginning of a great future.
+So here we are, the day after the company launch party, in between the iOS and the Android launch. A party I'll never forget, at least the parts I still remember. I'm proud to be part of the team that made this wonderful game and happy to celebrate with them on am anazing and well organized party! One can only hope that this is only the beginning of a great future.
