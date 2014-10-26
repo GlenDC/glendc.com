@@ -3,7 +3,7 @@
   host: GitHub
   id: GlenDC/cgreader
   languages: Go
-  active: true
+  active: false
   show_stats: true
 -
   host: GitHub
