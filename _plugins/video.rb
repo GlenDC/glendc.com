@@ -31,6 +31,8 @@ module Jekyll
 
 			if host == "YouTube"
 				"<iframe width=\"#{width}\" height=\"#{height}\" src=\"//www.youtube.com/embed/#{id}\" allowfullscreen></iframe>"
+			elsif host == "Vimeo"
+				"<iframe src=\"//player.vimeo.com/video/#{id}\" width=\"#{width}\" height=\"#{height}\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
 			else
 				"Error: '#{host}' is an unknown video host!"
 			end
