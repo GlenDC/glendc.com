@@ -1,0 +1,14 @@
+description: |
+  A project made for the Zoo Machines Festival 2014. Afterwards the game could also be played&nbsp;
+  on an exhibition in a museum. The game applied the keywords of the Game Jam: "unknown" and "mystery".
+summary: |
+  A project made for the Zoo Machines Festival 2014.&nbsp;
+  The game applied the keywords: "unknown" and "mystery".
+video:
+  host: Vimeo
+  id: 111455673
+layout: project
+title: Radio Unknown
+technology: [C#, Unity, Arduino]
+team: [EloiS, MichaelL, SheldonL, BatisteR, EricW, AnthonyK, CeliaB]
+date: 11-2014
