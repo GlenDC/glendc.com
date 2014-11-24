@@ -27,8 +27,9 @@
   name: Web GameBoy
 -
   host: GitHub
-  id: GlenDC/hjson-c
-  languages: C
+  id: GlenDC/mgj-im
+  languages: CLJS HTML5
   active: true
-  show_stats: true
-  name: Human JSON
+  show_stats: truee
+  name: FUNIM
+  website: http://glendc.itch.io/puzzle-fim
