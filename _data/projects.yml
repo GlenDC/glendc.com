@@ -28,6 +28,6 @@
 -
   host: GitHub
   id: GlenDC/funim
-  languages: CLJS HTML5
+  languages: ClojureScript, HTML5
   active: true
   show_stats: false
