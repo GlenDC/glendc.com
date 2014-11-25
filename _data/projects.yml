@@ -27,9 +27,8 @@
   name: Web GameBoy
 -
   host: GitHub
-  id: GlenDC/mgj-im
+  id: GlenDC/funim
   languages: CLJS HTML5
   active: true
-  show_stats: truee
-  name: FUNIM
+  show_stats: false
   website: http://glendc.itch.io/puzzle-fim
