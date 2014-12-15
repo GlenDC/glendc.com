@@ -20,6 +20,6 @@ Development of tools and web technology for a web game, that teaches people how 
 
 #### Other Experience
 
-> Since January 2014 I'm also active as an open source contributor in a variaty of projects and available as an online C++ consultant.
+Since January 2014 I'm active as an open source contributor in a variaty of projects and available as an online C++ consultant.
 
-_Check out [http://glendc.com/portfolio/](http://glendc.com/portfolio/) to see some of my projects._
+Check out [http://glendc.com/portfolio/](http://glendc.com/portfolio/) to see some of my projects.
