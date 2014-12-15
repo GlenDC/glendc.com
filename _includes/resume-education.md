@@ -1,5 +1,12 @@
 # Education
 
+#### October 2014 - December 2014
+
+### Massive Open Online Courses
+
++ Programming Languages (University of Washington)
++ Internet History, Technology, and Security (University of Michigan)
+
 #### September 2011 - January 2014
 
 ### Digital Arts and Entertainment: Major Game Development
