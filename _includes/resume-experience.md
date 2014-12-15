@@ -18,6 +18,8 @@ Developing serious games for medical and educaional purposes. Several games were
 
 Development of tools and web technology for a web game, that teaches people how to program, in several (computer) languages. It's one of the bigger open source project and a true YCombinator Success story.
 
+#### Other Experience
+
 > Since January 2014 I'm also active as an open source contributor in a variaty of projects and available as an online C++ consultant.
 
-_Check out [http://glendc.com/portfolio/](http://glendc.com/portfolio/) to see some of my projects.
+_Check out [http://glendc.com/portfolio/](http://glendc.com/portfolio/) to see some of my projects._
