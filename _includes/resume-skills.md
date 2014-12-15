@@ -1,8 +1,7 @@
 # Key Skills
 
 + Great Knowledge of ANSI/GNU C and C++ 98/11;
-+ Experience with C#, Javascript and similar languages;
-+ Great C++ 98/11 Knowledge (STL, Coding Standards, Boost, ...);
++ Experience with C#, Javascript, Go, Ruby, LISP, Clojure, ...;
 + Understanding of Computer Graphics with DirectX/OpenGL(ES);
 + Knowledge and experience with a variaty of languages (big interest in Language Design);
 + Ability to optimize own and others' code;
