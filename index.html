@@ -7,12 +7,21 @@ extracss: [project]
 <!-- Active Open source Projects -->
 
 {% if site.data.projects %}
-	<h1 class="content-title">Active Projects</h1>
-
+	{% assign counter=0 %}
 	{% for project in site.data.projects %}
-		{% open_source_project preview project.host project.id project.languages project.active true project.name project.website %} <!-- force show stats -->
+		{% if project.active %}
+			{% assign counter=counter | plus:1 %}
+		{% endif %}
 	{% endfor %}
-	<div class="project-group-end"></div>
+
+	{% if counter > 0 %}
+		<h1 class="content-title">Active Projects</h1>
+
+		{% for project in site.data.projects %}
+			{% open_source_project preview project.host project.id project.languages project.active true project.name project.website %} <!-- force show stats -->
+		{% endfor %}
+		<div class="project-group-end"></div>
+	{% endif %}
 {% endif %}
 
 <!-- Articles -->
