@@ -29,5 +29,5 @@
   host: GitHub
   id: GlenDC/funim
   languages: ClojureScript, HTML5
-  active: true
+  active: false
   show_stats: false
