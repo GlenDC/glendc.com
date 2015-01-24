@@ -5,7 +5,7 @@
 ### Massive Open Online Courses
 
 + [Programming Languages (University of Washington)](https://www.coursera.org/account/accomplishments/records/XFAcd2xaBXbd9xET)
-+ Internet History, Technology, and Security (University of Michigan)
++ [Internet History, Technology, and Security (University of Michigan)](https://www.coursera.org/account/accomplishments/records/xsuLjnbJPDwraFt8)
 
 #### September 2011 - January 2014
 
