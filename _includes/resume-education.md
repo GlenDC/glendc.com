@@ -4,17 +4,17 @@
 
 ### Massive Open Online Courses
 
-+ [Programming Languages (University of Washington)](https://www.coursera.org/account/accomplishments/records/XFAcd2xaBXbd9xET)
-+ [Internet History, Technology, and Security (University of Michigan)](https://www.coursera.org/account/accomplishments/records/xsuLjnbJPDwraFt8)
++ [Programming Languages (University of Washington)](https://www.coursera.org/account/accomplishments/certificate/TDY83CEKZD)
++ [Internet History, Technology, and Security (University of Michigan)](https://www.coursera.org/account/accomplishments/certificate/2UGQPRYUSK)
 
 #### September 2011 - January 2014
 
 ### Digital Arts and Entertainment: Major Game Development
 
-Learning Mathematics and Physics for Game Developers. Development in C++, C# and Graphics Programming with DirectX10 and HLSL. Development of games, both solo and in team.
+Learning Mathematics and Physics for Game Developers. Development in C++, C#. Graphics Programming with DirectX10 and HLSL. Development of games, both solo and in team.
 
 + Summer internship at Fishing Cactus, Belgium.
-+ Erasmus in the University of Applied Sciences in Kajaani, Finland.
++ 6 months Exchange Program with the University of Applied Sciences in Kajaani, Finland.
 
 #### September 2009 - June 2011
 
