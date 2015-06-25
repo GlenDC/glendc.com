@@ -5,7 +5,7 @@ date:   2015-06-25
 categories: opensource art editor
 ---
 
->> Trixel, it's like a Pixel but better.
+> Trixel, it's like a Pixel but better.
 
 Pixel art has never really died I think, although to me it seems to be more popular right now, than a decade ago, when 3D graphics was the hot-technology-in-the-club. Now that resolutions are getting ridiculously large, pixel art isn't really anymore... pixel art. At least not in the technical meaning that is. You can easily imagine that these days, a pixel of a pixel artwork takes in fact hundreds of pixels. And that is exactly the reason why Trixel Art is now (and actually since quite a long time) a possibility.
 
@@ -13,7 +13,7 @@ You can find the latest (and at the time of writing, very early) version of Trix
 
 When I'm talking about Trixels, I'm not describing the 3D Voxels as can be seen in such great games as [Fez](https://en.wikipedia.org/wiki/Fez_%28video_game%29), nor do I mean the Engine in which that game is made. When I'm talking about a _Trixel_, I'm talking about:
 
->> A Triangular shape that you use as a building block to compose an image, in a similar way you would make Pixel Art. Instead of using pixels (or these days, rectangular shapes), you are using triangular shapes.
+> A Triangular shape that you use as a building block to compose an image, in a similar way you would make Pixel Art. Instead of using pixels (or these days, rectangular shapes), you are using triangular shapes.
 
 There are quite a lot of people experimenting with this style already, and you can search for some examples yourself.
 
