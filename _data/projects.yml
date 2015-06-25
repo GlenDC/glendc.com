@@ -20,20 +20,13 @@
   name: StarEngine
 -
   host: GitHub
-  id: GlenDC/GBJam2
-  languages: JavaScript, CSS, PHP
-  active: false
-  show_stats: false
-  name: Web GameBoy
+  id: GlenDC/trixel
+  languages: Elm, HTML5
+  active: true
+  show_stats: true
 -
   host: GitHub
   id: GlenDC/funim
   languages: ClojureScript, HTML5
   active: false
   show_stats: false
--
-  host: GitHub
-  id: GlenDC/trixel
-  languages: Elm, HTML5
-  active: true
-  show_stats: true
