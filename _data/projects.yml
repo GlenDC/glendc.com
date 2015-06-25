@@ -31,3 +31,9 @@
   languages: ClojureScript, HTML5
   active: false
   show_stats: false
+-
+  host: GitHub
+  id: GlenDC/trixel
+  languages: Elm, HTML5
+  active: true
+  show_stats: true
